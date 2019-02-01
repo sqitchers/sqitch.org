@@ -1,4 +1,4 @@
 title = "Sqitch"
 baseURL = "https://sqitch.org/"
 languageCode = "en-us"
-disableKinds = ["section", "taxonomy", "taxonomyTerm"]
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
