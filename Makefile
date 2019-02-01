@@ -9,8 +9,9 @@ build:
 	hugo
 
 deploy:
+	cd public && git clean -dfx && git rm -rf --ignore-unmatch .
 	hugo
-	cd public;\
+	cd public; \
 	git add . ; \
 	git commit -m "rebuilding site `date -u +%Y-%m-%dT%H:%M:%SZ`"; \
 	git push origin master
