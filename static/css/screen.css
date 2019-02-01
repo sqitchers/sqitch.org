@@ -61,11 +61,10 @@ main h1, main h2, main h3 {
 /*	font-size:2em;*/
 }
 
-#info {
-	
-}
-
 main {
+    min-height:100%;
+    height:auto;
+    padding-bottom: 75px !important;
 }
 
 #hi {
