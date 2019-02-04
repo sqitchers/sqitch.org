@@ -91,12 +91,12 @@ body > header > nav {
     text-align: right;
 }
 
-body > header > nav li {
+#bar li {
     display: inline;
     padding-left: 20px;
 }
 
-nav .fa {
+#bar i {
     font-family: FAS;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -104,8 +104,42 @@ nav .fa {
     color: #fff;
 }
 
-nav .fa:hover { color: #00bece }
-nav .info:before { content: "\f05a" }
-nav .docs:before { content: "\f02d" }
-nav .community:before { content: "\f0c0" }
-nav .download:before { content: "\f381" }
+#bar i:hover { color: #00bece }
+#bar .about:before { content: "\f05a" }
+#bar .docs:before { content: "\f02d" }
+#bar .community:before { content: "\f0c0" }
+#bar .download:before { content: "\f381" }
+
+#info li {
+    list-style-type: none;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+@media only screen and (min-width: 750px) {
+    #info li { width: 335px}
+}
+
+#info h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#info li:before {
+    font-family: FAS; font-size:3em;
+    line-height: 1em;
+    color: #93AEAA;
+    float:left;
+    text-align: center;
+    width: 70px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+#info .about:before { content: "\f05a"; font-size: 3.5em }
+#info .docs:before { content: "\f02d"; font-size: 3.5em }
+#info .community:before { content: "\f0c0" }
+#info .download:before { content: "\f381" }
