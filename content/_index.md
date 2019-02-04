@@ -16,13 +16,13 @@ type: single
 						<a href="/about/"><h3>About</h3></a>
 						<p>What makes Sqitch unique among database migration frameworks.</p>
 					</li>
-					<li class="docs">
-						<a href="/docs/"><h3>Documentation</h3></a>
-						<p>Command references, tutorials, best practice guides, and more.</p>
-					</li>
 					<li class="download">
 						<a href="/download/"><h3>Download</h3></a>
 						<p>Binary and source code downloads and installation instructions.</p>
+					</li>
+					<li class="docs">
+						<a href="/docs/"><h3>Documentation</h3></a>
+						<p>Command references, tutorials, best practice guides, and more.</p>
 					</li>
 					<li class="community">
 						<a href="/community/"><h3>Community</h3></a>

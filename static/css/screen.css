@@ -49,6 +49,10 @@ body > header > hgroup, body > header > nav > menu, body > main, #hi > *, body >
 	max-width: 720px;
 }
 
+body > header > hgroup {
+    margin-top: 10px;
+}
+
 body > header img {
 	height: 50px;
 }
@@ -65,8 +69,6 @@ body > footer {
 
 main h1, main h2, main h3 {
 	color:#007964;
-/*	color:#EB3C07;*/
-/*	font-size:2em;*/
 }
 
 main {
