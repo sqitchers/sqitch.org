@@ -93,7 +93,7 @@ body > header > nav {
 
 body > header > nav li {
     display: inline;
-    padding-right: 20px;
+    padding-left: 20px;
 }
 
 nav .fa {
@@ -104,11 +104,8 @@ nav .fa {
     color: #fff;
 }
 
+nav .fa:hover { color: #00bece }
 nav .info:before { content: "\f05a" }
-nav .info:hover { color: rgb(134, 209, 250) }
 nav .docs:before { content: "\f02d" }
-nav .docs:hover { color: rgb(77, 219, 127) }
 nav .community:before { content: "\f0c0" }
-nav .community:hover { color: rgb(250, 234, 94) }
 nav .download:before { content: "\f381" }
-nav .download:hover { color: rgb(252, 114, 104) }
