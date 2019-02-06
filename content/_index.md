@@ -5,11 +5,8 @@ type: single
 ---
 
     <section id="hi">
-		<p>Sqitch is the sane, database native, developer-friendly, deployment engineer-pleasing,  framework-neutral database change management system.</p>
-		<!--
-		<p>Sqitch is the the sane database change management system, emphasizing the strengths of <a href="">native database tools</a> and syntaxes, <a href="">development iteration</a>, and <a href="">deployment integrity</a>.</p>
-		<p>Inspired by <a href="https://git-scm.com">Git</a> Sqitch offers a familiar interface but <a href="">no opions</a> about languages or frameworks, with features like <a href="">dependency resolution</a>, <a href="">mulitproject management</a>, and <a href="">deployment target management</a>.</p>
-		-->
+		<p>Sqitch is the developer-friendly, platform-neutral, sanity-preserving database change management system.</p>
+		<!-- <p>Sqitch is the sane, database native, developer-friendly, deployment engineer-pleasing,  framework-neutral database change management system.</p> -->
 	</section>
 	<main>
 		<section id="info">
