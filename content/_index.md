@@ -5,8 +5,7 @@ type: single
 ---
 
     <section id="hi">
-		<p>Sqitch is the developer-friendly, platform-neutral, sanity-preserving database change management system.</p>
-		<!-- <p>Sqitch is the sane, database native, developer-friendly, deployment engineer-pleasing,  framework-neutral database change management system.</p> -->
+		<p>Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system.</p>
 	</section>
 	<main>
 		<section id="info">
