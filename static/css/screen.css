@@ -88,7 +88,6 @@ main {
     font-size: 2.5em;
     line-height: 1.5em;
     font-weight: 500;
-    /* text-shadow: 2px 2px 2px #000; */
     text-shadow:  #2e2e2e 2px 4px 5px;
     margin: 0;
 	padding: 32px;
@@ -116,31 +115,41 @@ main {
     padding-left: 16px;
 }
 
-#bar i {
+#bar i, .code:before {
     font-family: FAS;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
-    /* color: #fff; */
 }
 
-/* #bar i:hover { color: #22538E } */
-#bar .about:before { content: "\f05a" }
-#bar .docs:before { content: "\f02d" }
-#bar .community:before { content: "\f0c0" }
-#bar .download:before { content: "\f381" }
+.about:before { content: "\f05a" }
+.docs:before { content: "\f02d" }
+.community:before { content: "\f086" }
+.download:before { content: "\f019" }
+.code:before { content: "\f121" }
+
+body > footer .code:before {
+    font-size: 2.5em;
+    line-height: 1em;
+    float:left;
+    color: #22538E;
+    opacity: 0.2;
+    padding: 0 10px 0 0
+ }
 
 #info li {
     list-style-type: none;
     width: 100%;
-    padding: 10px;
-    margin: 0;
     display: inline-block;
     vertical-align: top;
 }
 
 @media only screen and (min-width: 750px) {
-    #info li { width: 335px}
+    #info li {width: 356px}
+}
+
+#info {
+    padding-top: 24px;
 }
 
 #info h3 {
@@ -149,18 +158,12 @@ main {
 }
 
 #info li:before {
-    font-family: FAS; font-size:3em;
+    font-family: FAS; font-size:2em;
     line-height: 1em;
     color: #22538E;
     opacity: 0.3;
     float:left;
     text-align: center;
-    width: 70px;
-    padding-right: 10px;
-    padding-bottom: 50px;
+    padding: 0 15px 50px 0;
 }
 
-#info .about:before { content: "\f05a"; font-size: 3.5em }
-#info .docs:before { content: "\f02d"; font-size: 3.5em }
-#info .community:before { content: "\f0c0" }
-#info .download:before { content: "\f381" }
