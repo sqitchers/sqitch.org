@@ -43,13 +43,14 @@ a, a:visited { color: #22538E; text-decoration: none }
 a:active { color:#00bece !important }
 a:hover { color: #06e; text-decoration: underline }
 
-body > header, body > header > nav, body > main, #hi > *, body > footer > * {
+body > main, #hi > *, body > footer > * {
 	padding: 12px;
     margin: 0 auto;
 	max-width: 720px;
 }
 
 body > header {
+	padding: 12px;
     vertical-align: bottom;
     margin: 10px auto;
 }
