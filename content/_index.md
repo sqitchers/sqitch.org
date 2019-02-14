@@ -1,10 +1,9 @@
 ---
 title: "Sqitch"
-date: 2019-02-01T14:50:53-05:00
 type: single
 ---
 
-    <section id="hi">
+  <section id="hi">
 		<p>Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system.</p>
 	</section>
 	<main>
