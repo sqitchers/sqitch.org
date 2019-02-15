@@ -2,7 +2,7 @@
 	<header id="title">
 		<h1>{{ .Title }}</h1>
 	</header>
-	<main id="{{ .Type }}">
+	<main id="{{ .Type }}" class="{{ .Kind }}">
 		{{ .Content }}
 	</main>
 {{ partial "footer.html" . }}

@@ -4,3 +4,7 @@ languageCode = "en-us"
 disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 copyright = "© Sqtich Hackers. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 footnoteReturnLinkContents = "↩"
+
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsStyle = "monokai"
