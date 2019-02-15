@@ -17,9 +17,9 @@ summary, time, mark, audio, video {
 }
 
 @font-face {
-    font-family: 'FAS';
-    src: url('/fonts/fa-solid.woff2') format('woff2'),
-         url('/fonts/fa-solid.woff') format('woff');
+    font-family: 'fawe';
+    src: url('/fonts/fontello.woff2') format('woff2'),
+         url('/fonts/fontello.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -122,6 +122,8 @@ main {
     padding: 32px 12px 75px  !important;
 }
 
+main > section { border-top: 4px double #22538e; padding: 12px 0; }
+
 #hi {
     display: block;
     color: #fff;
@@ -155,7 +157,7 @@ main {
 }
 
 #bar i, .code:before, #info a:before, .page section:before {
-    font-family: FAS;
+    font-family: fawe;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -172,6 +174,18 @@ main {
 .hash:before { content: "\f292" }
 .dev:before { content: "\f2f1" }
 .brew:before { content: "\f0fc" }
+.docker:before { content: "\f395" }
+.cpan:before { content: "\e803" }
+.ubuntu:before { content: "\f7df" }
+.windows:before { content: "\f17a" }
+.apple:before { content: "\f179" }
+.centos:before { content: "\f789" }
+.video:before { content: "\f03d" }
+.mail:before { content: "\f0e0" }
+.github:before { content: "\f09b" }
+.twitter:before { content: "\f099" }
+.news:before { content: "\f1ea" }
+.feed:before { content: "\F09E" }
 
 body > footer .code:before {
     line-height: 1em;
@@ -221,7 +235,7 @@ body > footer .code:before {
 }
 
 #info a:before {
-    font-family: FAS; font-size:2em;
+    font-family: fawe; font-size:2em;
     line-height: 1em;
     color: #817565;
     opacity: 0.6;
@@ -252,6 +266,10 @@ pre {
 p code, li code {
     display: inline-block;
     white-space: no-wrap;
+    background-color: #eee;
+    padding: 0 .3em;
+    border: 1px dotted #ccc;
+    line-height: 1.45em;
 }
 
 p pre code, li pre code {
