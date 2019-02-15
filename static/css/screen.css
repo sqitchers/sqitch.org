@@ -154,7 +154,7 @@ main {
     padding-left: 16px;
 }
 
-#bar i, .code:before, #info a:before, .page .icon {
+#bar i, .code:before, #info a:before, .page .icon:before {
     font-family: FAS;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -173,7 +173,7 @@ main {
 .dev:before { content: "\f2f1" }
 .brew:before { content: "\f0fc" }
 
-body > footer .code:before, .page .icon {
+body > footer .code:before {
     line-height: 1em;
     float:left;
     color: #22538e;
@@ -185,23 +185,20 @@ body > footer .code:before, .page .icon {
     opacity: 0.2;
  }
 
- .page .icon {
+.page .icon:before {
+    float: left;
     font-size: 2em;
+    line-height: 1em;
     width: 45px;
     height: 45px;
     background-color: #dee8f0;
-    margin-right: 16px;
+    margin: 0 16px 16px 0;
     padding: 16px;
     text-align: center;
     color: #817565;
-    clear:left;
  }
 
- #about p {
-     margin-bottom: 1.8em;
- }
-
-#info li {
+ info li {
     list-style-type: none;
     width: 100%;
     display: inline-block;
