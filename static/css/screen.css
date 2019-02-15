@@ -154,7 +154,7 @@ main {
     padding-left: 16px;
 }
 
-#bar i, .code:before, #info a:before, .page .icon:before {
+#bar i, .code:before, #info a:before, .page section:before {
     font-family: FAS;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -185,7 +185,7 @@ body > footer .code:before {
     opacity: 0.2;
  }
 
-.page .icon:before {
+.page section:before {
     float: left;
     font-size: 2em;
     line-height: 1em;
@@ -234,6 +234,11 @@ body > footer .code:before {
     opacity: 1.0 !important;
 }
 
+main li {
+    list-style-position: outside;
+    margin-left: 1.1em;
+}
+
 pre {
     border: 0;
     line-height: 1.45em;
@@ -260,7 +265,7 @@ p pre code, li pre code {
 }
 
 /* hugo gen chromastyles --style=monokai >> themes/justatheory/static/css/screen.css */
-/* Background */ pre, .chroma { color: #f8f8f2; background-color: #333 } /* Modified to add pre and to match header background */
+/* Background */ pre, .chroma { color: #f8f8f2; background-color: #333 } /* Modified to add pre and to lighten background */
 /* Error */ .chroma .err { color: #960050; background-color: #1e0010 }
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
 /* LineTable */ .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; }

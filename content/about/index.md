@@ -6,7 +6,7 @@ type: about
 Sqitch is a database change management application. What makes it different from
 your typical migration-style approaches? A few things:
 
-{{% section class="icon db" %}}
+{{% section class="db" %}}
 
 No Opinions
 -----------
@@ -16,7 +16,7 @@ standalone change management system with no opinions about your database engine,
 application framework, or development environment.
 
 {{% /section %}}
-{{% section class="icon cli" %}}
+{{% section class="cli" %}}
 
 Native scripting
 ----------------
@@ -31,7 +31,7 @@ Writing a [PostgreSQL] application? Write SQL scripts for `psql`. Writing a
     "MySQL: The world's most popular open source database"
 
 {{% /section %}}
-{{% section class="icon depend" %}}
+{{% section class="depend" %}}
 
 Dependency resolution
 ---------------------
@@ -41,7 +41,7 @@ from other Sqitch projects. This ensures proper order of execution, even when
 you’ve committed changes to your VCS out-of-order.
 
 {{% /section %}}
-{{% section class="icon hash" %}}
+{{% section class="hash" %}}
 
 No numbering
 ------------
@@ -51,7 +51,7 @@ need to number your changes, although you can if you want. Sqitch doesn’t much
 care how you name your changes.
 
 {{% /section %}}
-{{% section class="icon dev" %}}
+{{% section class="dev" %}}
 
 Iterative development
 ---------------------

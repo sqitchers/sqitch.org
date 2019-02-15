@@ -3,7 +3,8 @@ title: "Download Sqitch"
 type: downloads
 ---
 
-<div class="icon brew"></div>
+{{% section class="brew" %}}
+
 Docker
 ------
 
@@ -17,9 +18,15 @@ curl -L https://git.io/fAX6Z -o sqitch && chmod +x sqitch
 ./sqitch help
 ```
 
+{{% /section %}}
+{{% section class="db" %}}
+
 Engines
 -------
-Each database engine also requires external dependencies:
+
+Each engine also requires a database-native command-line client to execute
+change scripts, as well as connector libraries to allow Sqitch itself to connect
+to the database.
 
 *   PostgreSQL requires [PostgreSQL]
 *   SQLite requires [SQLite]
@@ -31,12 +38,11 @@ Each database engine also requires external dependencies:
 *   Exasol requires EXAplus and the Exasol ODBC driver from [Exasol]
 *   Snowflake requires SnowSQL and the Snowflake ODBC driver from [Snowflake]
 
-
   [PostgreSQL]: https://postgresql.org/
     "PostgreSQL: The World's Most Advanced Open Source Relational Database"
   [MySQL]: https://mysql.com/
     "MySQL: The world's most popular open source database"
-  [MySQL]: https://sqlite.org/
+  [SQLite]: https://sqlite.org/
     "SQLite: Small. Fast. Reliable. Choose any three."
   [Firebird]: https://www.firebirdsql.org/
     "Firebird: True universal open source database"
@@ -48,3 +54,5 @@ Each database engine also requires external dependencies:
   [Exasol]: https://www.exasol.com/portal/ "Exasol User Portal"
   [Snowflake]: https://docs.snowflake.net/manuals/user-guide-connecting.html
     "Connecting to Snowflake"
+
+{{% /section %}}
