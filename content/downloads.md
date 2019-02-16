@@ -26,6 +26,11 @@ Simply pull the image, download the shell script, make it executable, and go:
 Homebrew
 --------
 
+### Foo
+
+#### Bar asd adfasld fjaldfsdfadsf
+
+
 The [Sqitch Homebrew Tap] quickly builds Sqitch on you Mac. To install from
 Homebrew, configure the tap and then install the variants you need via the
 appropriate `--use-$engine-support` options. For example, to install Sqitch with

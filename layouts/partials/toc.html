@@ -19,9 +19,9 @@
                 {{- range findRE "[2-4]" . 1 -}}
                     {{- $next_heading := (int .) -}}
                     {{- if gt $next_heading ($.Scratch.Get "last_level") -}}
-                        <ul class="toc-h{{ . }}">
+                        {{ if gt $next_heading 2 }}<li>{{end}}<ul class="toc-h{{ . }}">
                     {{- else if lt $next_heading ($.Scratch.Get "last_level") -}}
-                        </ul>
+                        </ul>{{ if gt $next_heading 2 }}<li>{{end}}
                     {{- end -}}
                     <li><a href="{{ relref $.Page $href }}">{{- $header | plainify | htmlUnescape -}}</a></li>
                     {{ $.Scratch.Set "last_level" $next_heading }}
