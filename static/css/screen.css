@@ -263,9 +263,13 @@ main li {
     line-height: 1.5em;
 }
 
+.toc details { opacity: 0.5 }
+.toc details[open] { opacity: 1 }
+
 .toc summary {
     display: inline-block;
-    background-color:#ddd;
+    background-color:#dee8f0;
+    border-radius: 5px;
     list-style: none;
 }
 
@@ -274,7 +278,8 @@ main li {
 }
 
 .toc nav {
-    background-color:#ddd;
+    background-color:#dee8f0;
+    border-radius: 5px;
     z-index: 10;
     position: absolute;
 }
