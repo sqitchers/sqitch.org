@@ -274,25 +274,15 @@ main li {
 }
 
 .toc nav {
-    background-color: red;
+    background-color:#ddd;
     z-index: 10;
     position: absolute;
-    border: 1px solid #aaa;
 }
 
 .toc h4 { display: inline; padding: 1em; line-height: 2.5em; }
-
-.toc li, .toc ul {
-    list-style-type: none;
-}
-
-.toc ul {
-    margin: 1em 1em 1em 0;
-}
-
-.toc li {
-    margin-left: 1em;
-}
+.toc li, .toc ul { list-style-type: none }
+.toc ul { margin: 1em 1em 1em 0 }
+.toc li { margin-left: 1em }
 
 pre {
     border: 0;
