@@ -253,6 +253,47 @@ main li {
     margin-left: 1.1em;
 }
 
+.toc {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
+    margin: 0 0 1em 1em;
+    font-size: 95%;
+    line-height: 1.5em;
+}
+
+.toc summary {
+    display: inline-block;
+    background-color:#ddd;
+    list-style: none;
+}
+
+.toc summary::-webkit-details-marker {
+    display: none;
+}
+
+.toc nav {
+    background-color: red;
+    z-index: 10;
+    position: absolute;
+    border: 1px solid #aaa;
+}
+
+.toc h4 { display: inline; padding: 1em; line-height: 2.5em; }
+
+.toc li, .toc ul {
+    list-style-type: none;
+}
+
+.toc ul {
+    margin: 1em 1em 1em 0;
+}
+
+.toc li {
+    margin-left: 1em;
+}
+
 pre {
     border: 0;
     line-height: 1.45em;

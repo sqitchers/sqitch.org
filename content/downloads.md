@@ -1,6 +1,7 @@
 ---
 title: "Download Sqitch"
 type: downloads
+toc: true
 ---
 
 There are a number of ways to install Sqitch and associated engine libraries and

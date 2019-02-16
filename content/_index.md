@@ -1,5 +1,5 @@
 ---
-title: "Sqitch"
+title: "Sqitch: Sane database change management"
 type: single
 ---
 

@@ -3,6 +3,6 @@
 		<h1>{{ .Title }}</h1>
 	</header>
 	<main id="{{ .Type }}" class="{{ .Kind }}">
+		{{ if .Params.toc }}{{ partial "toc.html" . }}{{ end }}
 		{{ .Content }}
 	</main>
-{{ partial "footer.html" . }}
