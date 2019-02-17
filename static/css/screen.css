@@ -274,7 +274,7 @@ main li {
 
 .toc details { opacity: 0.5;}
 .toc details:hover { opacity: 0.5; opacity: 1; cursor: pointer; }
-.toc details[open] { opacity: 1}
+.toc details[open] { opacity: 1 }
 
 .toc summary {
     display: inline-block;
@@ -292,6 +292,7 @@ main li {
     background-color:#dee8f0;
     border-radius: 5px;
     z-index: 10;
+    box-shadow:  #2e2e2e -1px 1px 3px;
     position: absolute;
 }
 
