@@ -26,11 +26,6 @@ Simply pull the image, download the shell script, make it executable, and go:
 Homebrew
 --------
 
-### Foo
-
-#### Bar asd adfasld fjaldfsdfadsf
-
-
 The [Sqitch Homebrew Tap] quickly builds Sqitch on you Mac. To install from
 Homebrew, configure the tap and then install the variants you need via the
 appropriate `--use-$engine-support` options. For example, to install Sqitch with
@@ -50,6 +45,8 @@ docs] for build details and options.
 
 CPAN
 ----
+
+### In the beginning there was much delight in things and it was good.
 
 The canonical source for Sqitch releases is [CPAN]. Use the cpan or [cpanminus]
 client to download and build Sqitch and its dependencies from source, as well
