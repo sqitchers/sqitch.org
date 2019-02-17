@@ -46,8 +46,6 @@ docs] for build details and options.
 CPAN
 ----
 
-### In the beginning there was much delight in things and it was good.
-
 The canonical source for Sqitch releases is [CPAN]. Use the cpan or [cpanminus]
 client to download and build Sqitch and its dependencies from source, as well
 as the appropriate database drivers. For example, to install Sqitch with
