@@ -1,5 +1,7 @@
 
 .icon-cpan:before { content: '\e803'; } /* '' */
+.icon-sqitch:before { content: '\e80c'; } /* '' */
+.icon-th-list:before { content: '\f00b'; } /* '' */
 .icon-download:before { content: '\f019'; } /* '' */
 .icon-book:before { content: '\f02d'; } /* '' */
 .icon-videocam:before { content: '\f03d'; } /* '' */
@@ -9,6 +11,7 @@
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-rss:before { content: '\f09e'; } /* '' */
 .icon-mail:before { content: '\f0e0'; } /* '' */
+.icon-sitemap:before { content: '\f0e8'; } /* '' */
 .icon-beer:before { content: '\f0fc'; } /* '' */
 .icon-terminal:before { content: '\f120'; } /* '' */
 .icon-code:before { content: '\f121'; } /* '' */
@@ -16,6 +19,7 @@
 .icon-apple:before { content: '\f179'; } /* '' */
 .icon-windows:before { content: '\f17a'; } /* '' */
 .icon-database:before { content: '\f1c0'; } /* '' */
+.icon-file-archive:before { content: '\f1c6'; } /* '' */
 .icon-newspaper:before { content: '\f1ea'; } /* '' */
 .icon-hashtag:before { content: '\f292'; } /* '' */
 .icon-sync-alt:before { content: '\f2f1'; } /* '' */
