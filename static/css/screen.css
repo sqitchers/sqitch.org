@@ -188,6 +188,7 @@ main > section:first-of-type { border: none !important; }
 .news:before { content: "\f1ea" }
 .feed:before { content: "\f09e" }
 .zip:before { content: "\f1c6" }
+.bug:before { content: "\f188" }
 
 body > footer .code:before {
     line-height: 1em;
