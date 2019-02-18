@@ -37,7 +37,9 @@ Colophon
 *Sqitch* is written in [Markdown], built and published with [Hugo], and hosted
 on [GitHub Pages]. Its set in [Alegreya Sans], with fixed-width type set in
 [Source Code Pro]. The icons are by [Font Awesome], encoded in a [Fontello]
-custom font.
+custom font. The [hero photo] depecting the [Herzog & de Meuron]-designed
+[Messeplatz "window to the heavens"] was taken by [Ricardo Gomez Angel] \(via
+[Unsplash]).
 
 This site eschews JavaScript, and uses no tracking or analytics services.
 
@@ -52,3 +54,9 @@ This site eschews JavaScript, and uses no tracking or analytics services.
 [Source Code Pro]: https://github.com/adobe-fonts/source-code-pro
 [Font Awesome]: https://fontawesome.com
 [Fontello]: http://fontello.com "Fontello - icon fonts generator"
+[hero photo]: https://unsplash.com/photos/iC0MX40g480
+[Messeplatz "window to the heavens"]: https://www.myswitzerland.com/en-us/messeplatz-basel.html
+  "Messeplatz Basel"
+[Herzog & de Meuron]: https://www.herzogdemeuron.com/index/news/2013/messe-basel-new-hall-130212.html
+[Ricardo Gomez Angel]: https://unsplash.com/@ripato
+[Unsplash]: https://unsplash.com/
