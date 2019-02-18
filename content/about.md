@@ -68,5 +68,5 @@ database development.
 
 Ready to give Sqitch a try? [Download] it now or read [the docs].
 
-  [Download]: /downloads/
+  [Download]: /download/
   [the docs]: /docs/
