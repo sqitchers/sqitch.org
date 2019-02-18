@@ -1,0 +1,39 @@
+#!/usr/bin/env perl
+
+use v5.10;
+use strict;
+use warnings;
+use Pod::Markdown;
+use File::Spec::Functions qw(catdir catfile);
+use File::Basename;
+
+my $version = shift or die "Usaage: $0 VERSION\n";
+my $dir = "App-Sqitch-$version";
+my $tgz = "App-Sqitch-$version.tar.gz";
+my $url = "https://github.com/sqitchers/sqitch/releases/download/v$version/$tgz";
+my $src = catdir $dir, 'lib';
+my $dst = catdir qw(content docs);
+
+unless (-d $dir) {
+    unless (-f $tgz) {
+        say "⬇️ Downloading $tgz\n";
+        system('curl', '-LO', $url) == 0 or die;
+    }
+    say "📦 Unpacking $tgz\n";
+    system('tar', 'zxf', $tgz) == 0 or die;
+}
+
+my $skip = map { $_ => 1 } qw(sqitch-passwords sqitchguides sqitchusage);
+
+for my $pod (glob "$src/sqitch*.pod") {
+    next if $pod =~ /-usage[.]pod$/;
+    (my $name = basename $pod) =~ s/[.]pod$//;
+    my $md = catfile $dst, "$name.md";
+    say "📗 Generating $md";
+    open my $out, '>:utf8', $md or die "Cannot open $md: $\n";
+    print {$out} qq{---\ntitle: $name\nheadTitle: "Sqitch: $name documentation"\n---\n\n};
+    my $parser = Pod::Markdown->new(perldoc_url_prefix => 'https://sqitch.org/docs/');
+    $parser->output_fh($out);
+    $parser->parse_file($pod);
+    close $out or die "Cannot close $md: $!\n";
+}

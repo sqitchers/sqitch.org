@@ -1,12 +1,10 @@
-SITE=justatheory.com
-BUCKET=${SITE}
 BUILD_DIR=public
-CLOUDFRONT_DISTID=E1X44SJ45FTNGI
-
 .DEFAULT_GOAL := build
+VERSION ?= 0.9999
 
 build:
 	cd public && git clean -dfx && git rm -rf --ignore-unmatch .
+	bin/gendocs $(VERSION)
 	hugo
 
 deploy: build
