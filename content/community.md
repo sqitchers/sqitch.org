@@ -2,6 +2,12 @@
 title: "Community"
 ---
 
+The Sqitch community warmly welcomes your participation. We welcome discussion
+and contributions from anyone and everyone, at every level of knowledge and
+skill. In the interest of fostering an open and welcoming environment, all
+members of the community must abide by the [Sqitch Community Code of
+Conduct](/coc/).
+
 {{% section class="mail" %}}
 
 Mail List
@@ -17,7 +23,7 @@ general discussion, and to learn tips and techniques, as well as opportunities
 to contribute to the project. Browse the [list archives][list] to find out what
 you've missed so far, or to see if a question has already been answered.
 
- [list]: https://groups.google.com/d/forum/sqitch-users "Sqitch Users mail list"
+ [list]: https://groups.google.com/group/sqitch-users "Sqitch Users mail list"
  [subscribe]: mailto:sqitch-users+subscribe@googlegroups.com "Subscribe to sqitch-users"
  [post]: mailto:sqitch-users@googlegroups.com "Post to sqitch-users"
 
