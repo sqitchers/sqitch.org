@@ -287,12 +287,14 @@ main li {
 .toc summary h4 { display: none; }
 .toc summary:before {
     font-family: 'fawe';
-    font-size: 1.5em;
-    line-height: 1.6em;
-    padding: 0.5em;
+    color: #22538e;
+    font-size: 1.3em;
+    line-height: 1em;
+    padding: 0.4em;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     content: "\f00b";
+    display: inline-block;
 }
 
 .toc summary::-webkit-details-marker {
