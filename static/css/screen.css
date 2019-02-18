@@ -123,6 +123,7 @@ main {
 }
 
 main > section { border-top: 4px double #22538e; padding: 12px 0; }
+main > section:first-of-type { border: none !important; }
 
 #hi {
     display: block;
@@ -185,7 +186,8 @@ main > section { border-top: 4px double #22538e; padding: 12px 0; }
 .github:before { content: "\f09b" }
 .twitter:before { content: "\f099" }
 .news:before { content: "\f1ea" }
-.feed:before { content: "\F09E" }
+.feed:before { content: "\f09e" }
+.zip:before { content: "\f1c6" }
 
 body > footer .code:before {
     line-height: 1em;
@@ -201,8 +203,8 @@ body > footer .code:before {
 
 .page section:before {
     float: left;
-    font-size: 2em;
-    line-height: 1em;
+    font-size: 2.2em;
+    line-height: 1.2em;
     width: 45px;
     height: 45px;
     background-color: #dee8f0;
@@ -211,6 +213,7 @@ body > footer .code:before {
     padding: 16px;
     text-align: center;
     color: #817565;
+    display: inline-block;
  }
 
  #info li {
