@@ -32,7 +32,7 @@ for my $pod (glob "$src/sqitch*.pod") {
     say "📗 Generating $md";
     open my $out, '>:utf8', $md or die "Cannot open $md: $\n";
     print {$out} qq{---\ntitle: $name\nheadTitle: "Sqitch: $name documentation"\n---\n\n};
-    my $parser = Pod::Markdown->new(perldoc_url_prefix => 'https://sqitch.org/docs/');
+    my $parser = Pod::Markdown->new(perldoc_url_prefix => '/docs/');
     $parser->output_fh($out);
     $parser->parse_file($pod);
     close $out or die "Cannot close $md: $!\n";
