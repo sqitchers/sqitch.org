@@ -129,6 +129,28 @@ to install [Strawberry Perl](http://strawberryperl.com/) (also available from
 the steps for installing from [CPAN](#cpan).
 
 {{% /section %}}
+{{% section class="zip" %}}
+
+Source Code
+-----------
+
+The current version of Sqitch is `v0.9999`. Download the source from these
+location [GitHub](https://github.com/sqitchers/sqitch/releases/) or
+[CPAN](https://metacpan.org/release/App-Sqitch).
+
+{{% /section %}}
+{{% section class="github" %}}
+
+GitHub
+------
+
+If you'd like to contribute to the development of Sqitch, fork the project
+on [GitHub](https://github.com/sqitchers/sqitch) or clone the repository
+directly:
+
+    git clone https://github.com/sqitchers/sqitch
+
+{{% /section %}}
 {{% section class="db" %}}
 
 Engines
@@ -164,27 +186,5 @@ to the database.
   [Exasol]: https://www.exasol.com/portal/ "Exasol User Portal"
   [Snowflake]: https://docs.snowflake.net/manuals/user-guide-connecting.html
     "Connecting to Snowflake"
-
-{{% /section %}}
-{{% section class="zip" %}}
-
-Source Code
------------
-
-The current version of Sqitch is `v0.9999`. Download the source from these
-location [GitHub](https://github.com/sqitchers/sqitch/releases/) or
-[CPAN](https://metacpan.org/release/App-Sqitch).
-
-{{% /section %}}
-{{% section class="github" %}}
-
-GitHub
-------
-
-If you'd like to contribute to the development of Sqitch, fork the project
-on [GitHub](https://github.com/sqitchers/sqitch) or clone the repository
-directly:
-
-    git clone https://github.com/sqitchers/sqitch
 
 {{% /section %}}

@@ -311,13 +311,14 @@ main li {
     z-index: 10;
     box-shadow:  #889 -1px 1px 3px;
     position: absolute;
+    max-height: 600px;
 }
 
-.toc > ul { min-width:180px; max-width:300px; }
+.toc > ul { min-width:180px; max-width:300px;  }
 .toc li { list-style-type: none; margin: 0; white-space: nowrap; overflow-x: auto}
-.toc ul { margin: 0 1em 1em 1em; }
-.toc nav h4 { margin: 1em 1em 0; }
-.toc ul, .toc h4 { direction: ltr; } /* Restore ltr */
+.toc ul { margin: 0 16px 16px 16px; }
+.toc nav h3 { margin: 16px 16px 0; }
+.toc ul, .toc h3 { direction: ltr; } /* Restore ltr */
 .toc ul ul { margin: 0 0 0 1em }
 
 pre {
