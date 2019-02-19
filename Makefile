@@ -2,9 +2,11 @@ BUILD_DIR=public
 .DEFAULT_GOAL := build
 VERSION ?= 0.9999
 
-build:
-	cd public && git clean -dfx && git rm -rf --ignore-unmatch .
+docs:
 	bin/gendocs $(VERSION)
+
+build: docs
+	cd public && git clean -dfx && git rm -rf --ignore-unmatch .
 	hugo
 
 deploy: build

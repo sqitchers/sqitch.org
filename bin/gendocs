@@ -3,7 +3,6 @@
 use v5.10;
 use strict;
 use warnings;
-use Pod::Markdown;
 use File::Spec::Functions qw(catdir catfile);
 use File::Basename;
 
@@ -31,9 +30,25 @@ for my $pod (glob "$src/sqitch*.pod") {
     my $md = catfile $dst, "$name.md";
     say "📗 Generating $md";
     open my $out, '>:utf8', $md or die "Cannot open $md: $\n";
-    print {$out} qq{---\ntitle: $name\nheadTitle: "Sqitch: $name documentation"\n---\n\n};
-    my $parser = Pod::Markdown->new(perldoc_url_prefix => '/docs/');
+    print {$out} qq{---\ntitle: $name\nheadTitle: "Sqitch: $name documentation"\ntoc: true\n---\n\n};
+    my $parser = Sqitch::Markdown->new(perldoc_url_prefix => '/docs/');
     $parser->output_fh($out);
     $parser->parse_file($pod);
     close $out or die "Cannot close $md: $!\n";
 }
+
+package Sqitch::Markdown;
+use strict;
+use warnings;
+use Pod::Markdown;
+use parent 'Pod::Markdown';
+
+# Mak each header one greater (=head1 => ##, =head2 => ###, etc.).
+sub start_head1 { $_[0]->_start_head(2) } # => ##
+sub   end_head1 { $_[0]->_end_head(2) }   # => ##
+sub start_head2 { $_[0]->_start_head(3) } # => ###
+sub   end_head2 { $_[0]->_end_head(3) }   # => ###
+sub start_head3 { $_[0]->_start_head(4) } # => ####
+sub   end_head3 { $_[0]->_end_head(4) }   # => ####
+sub start_head4 { $_[0]->_start_head(5) } # => #####
+sub   end_head4 { $_[0]->_end_head(5) }   # => #####
