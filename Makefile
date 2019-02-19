@@ -6,7 +6,9 @@ tag:
 	git submodule update --init -- sqitch
 	cd sqitch && git checkout v$(VERSION)
 
-docs:
+sqitch: tag
+
+docs: sqitch
 	git submodule update --init -- sqitch
 	bin/gendocs
 
