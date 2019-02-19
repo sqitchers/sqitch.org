@@ -1,15 +1,8 @@
 BUILD_DIR=public
 .DEFAULT_GOAL := build
-VERSION ?= 0.9999
 
-tag:
-	git submodule update --init -- sqitch
-	cd sqitch && git checkout v$(VERSION)
-
-sqitch: tag
-
-docs: sqitch
-	git submodule update --init -- sqitch
+docs:
+	git submodule update --init --remote -- sqitch
 	bin/gendocs
 
 build: docs
