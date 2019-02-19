@@ -16,8 +16,8 @@ Mail List
 
 Got questions or comments for the Sqitch community? The best place to send them
 is the [Sqitch Users mail list][list]. Subscribe by sending a message to
-[`sqitch-users+subscribe@googlegroups.com`][subscribe]. Thereafter, send inquiries and notes to
-the list address, [`sqitch-users@googlegroups.com`][post].
+[sqitch-users+subscribe@googlegroups.com][subscribe]. Thereafter, send inquiries and notes to
+the list address, [sqitch-users@googlegroups.com][post].
 
 This low-volume list is also the best place to follow along with community news,
 general discussion, and to learn tips and techniques, as well as opportunities

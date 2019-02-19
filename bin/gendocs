@@ -59,8 +59,10 @@ sub _end_head   { $_[0]->{head_level} = 0;     $_[0]->SUPER::_end_head(   $_[1] 
 sub handle_text {
     my $self = shift;
     if ($self->{head_level} == 1) {
+        # Are we in the Name header?
         $self->{in_name} = $_[0] =~ /^name$/i;
     } elsif ($self->{in_name}) {
+        # Get the abstract from the Name header.
         ($self->{abstract} = $_[0]) =~ s/^\S+\s+-\s+//;
         $self->{in_name} = 0;
     }
