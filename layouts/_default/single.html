@@ -2,7 +2,7 @@
 	<header id="title">
 		<h1>{{ .Title }}</h1>
 	</header>
-	<main id="{{ .Type }}" class="{{ .Kind }}">
+	<main id="{{ or .Params.id .Type }}" class="{{ .Kind }}">
 		{{ if .Params.toc }}{{ partial "toc.html" . }}{{ end }}
 		{{ .Content }}
 	</main>

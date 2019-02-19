@@ -32,7 +32,7 @@ for my $pod (glob "$src/sqitch*.pod") {
         qq{---},
         qq{},
         $markdown
-    );;
+    );
     close $out or die "Cannot close $md: $!\n";
 }
 

@@ -2,11 +2,13 @@
 .icon-cpan { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
 .icon-sqitch { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80c;&nbsp;'); }
 .icon-th-list { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf00b;&nbsp;'); }
+.icon-cog { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf013;&nbsp;'); }
 .icon-download { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf019;&nbsp;'); }
 .icon-book { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf02d;&nbsp;'); }
 .icon-videocam { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf03d;&nbsp;'); }
 .icon-info-circle { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf05a;&nbsp;'); }
 .icon-chat { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf086;&nbsp;'); }
+.icon-upload { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf093;&nbsp;'); }
 .icon-twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf099;&nbsp;'); }
 .icon-github-circled { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09b;&nbsp;'); }
 .icon-rss { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09e;&nbsp;'); }
@@ -25,5 +27,6 @@
 .icon-hashtag { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf292;&nbsp;'); }
 .icon-sync-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2f1;&nbsp;'); }
 .icon-docker { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf395;&nbsp;'); }
+.icon-chalkboard-teacher { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf51c;&nbsp;'); }
 .icon-centos { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf789;&nbsp;'); }
 .icon-ubuntu { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf7df;&nbsp;'); }

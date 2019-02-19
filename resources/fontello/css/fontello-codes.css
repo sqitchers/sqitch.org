@@ -2,11 +2,13 @@
 .icon-cpan:before { content: '\e803'; } /* '' */
 .icon-sqitch:before { content: '\e80c'; } /* '' */
 .icon-th-list:before { content: '\f00b'; } /* '' */
+.icon-cog:before { content: '\f013'; } /* '' */
 .icon-download:before { content: '\f019'; } /* '' */
 .icon-book:before { content: '\f02d'; } /* '' */
 .icon-videocam:before { content: '\f03d'; } /* '' */
 .icon-info-circle:before { content: '\f05a'; } /* '' */
 .icon-chat:before { content: '\f086'; } /* '' */
+.icon-upload:before { content: '\f093'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-rss:before { content: '\f09e'; } /* '' */
@@ -25,5 +27,6 @@
 .icon-hashtag:before { content: '\f292'; } /* '' */
 .icon-sync-alt:before { content: '\f2f1'; } /* '' */
 .icon-docker:before { content: '\f395'; } /* '' */
+.icon-chalkboard-teacher:before { content: '\f51c'; } /* '' */
 .icon-centos:before { content: '\f789'; } /* '' */
 .icon-ubuntu:before { content: '\f7df'; } /* '' */

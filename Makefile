@@ -3,7 +3,7 @@ BUILD_DIR=public
 
 docs:
 	git submodule update --init --remote -- sqitch
-	rm content/docs/sqitch*
+	rm -f content/docs/sqitch*
 	bin/gendocs
 
 build: docs
