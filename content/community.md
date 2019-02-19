@@ -1,5 +1,6 @@
 ---
 title: "Community"
+description: The Sqitch community warmly welcomes your participation. We welcome discussion and contributions from anyone and everyone, at every level of knowledge and skill.
 ---
 
 The Sqitch community warmly welcomes your participation. We welcome discussion

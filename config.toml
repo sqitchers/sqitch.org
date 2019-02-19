@@ -2,9 +2,12 @@ title = "Sqitch"
 baseURL = "https://sqitch.org/"
 languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap"]
-copyright = "© Sqtich Hackers. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+copyright = "© Sqtich Hackers. This work is licensed under a Creative Commons Attribution 4.0 International License."
 footnoteReturnLinkContents = "↩"
 
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
+
+[params]
+  description = "Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system."

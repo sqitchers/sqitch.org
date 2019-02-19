@@ -1,8 +1,9 @@
 ---
 title: "About this Site"
+description: This site is open source and maintained by members of the Sqitch community. We welcome comments, suggestions, and corrections.
 ---
 
-This site is open source and maintained by members of the Sqich community. We
+This site is open source and maintained by members of the Sqitch community. We
 welcome comments, suggestions, and corrections.
 
 Open Source

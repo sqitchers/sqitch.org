@@ -1,6 +1,7 @@
 ---
 title: "Download Sqitch"
 type: downloads
+description: Download and install Sqitch via Docker or Homebrew, as a binary or source code, on Linux, Windows, or macOS.
 toc: true
 ---
 
