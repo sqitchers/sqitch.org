@@ -5,6 +5,10 @@ type: single
 
 <section id="hi">
 	<p>Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system.</p>
+	<p>
+		<a href="/download/" class="download" title="Download Sqitch"> Download</a>
+		<a href="/about/" title="About Sqitch">New to Sqitch?</a>
+	</p>
 </section>
 <main>
 	<section id="info">
