@@ -17,5 +17,5 @@ deploy: build
 	git commit -m "rebuilding site `date -u +%Y-%m-%dT%H:%M:%SZ`"; \
 	git push origin master
 
-server:
+server: docs
 	hugo server -D --bind 0.0.0.0
