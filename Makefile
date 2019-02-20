@@ -1,12 +1,12 @@
 BUILD_DIR=public
 .DEFAULT_GOAL := build
 
-docs:
+manual:
 	git submodule update --init --remote -- sqitch
-	rm -f content/docs/sqitch*
-	bin/gendocs
+	rm -f content/docs/manual/sqitch*
+	bin/gen_manual
 
-build: docs
+build: manual
 	git submodule update --init -- public
 	cd public && git clean -dfx && git rm -rf --ignore-unmatch .
 	hugo
@@ -17,5 +17,5 @@ deploy: build
 	git commit -m "rebuilding site `date -u +%Y-%m-%dT%H:%M:%SZ`"; \
 	git push origin master
 
-server: docs
+server: manual
 	hugo server -D --bind 0.0.0.0

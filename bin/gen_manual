@@ -8,7 +8,7 @@ use File::Basename;
 
 my $dir = 'sqitch';
 my $src = catdir $dir, 'lib';
-my $dst = catdir qw(content docs);
+my $dst = catdir qw(content docs manual);
 
 my %skip = map { $_ => 1 } qw(sqitch-passwords sqitchguides sqitchusage sqitchcommands);
 
@@ -44,7 +44,7 @@ use parent 'Pod::Markdown';
 
 sub new {
     my $self = shift->SUPER::new(
-        local_module_url_prefix => '/docs/',
+        local_module_url_prefix => '/docs/manual/',
         local_module_re         => qr/^sqitch/,
     );
     $self->{head_level} = 0;

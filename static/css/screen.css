@@ -536,15 +536,15 @@ p pre code, li pre code {
     font-family: "Source Code Pro", "Courier", monospace
 }
 
-#doclist h2 { color: #817565; font-weight: 500; }
-#doclist i.i:before { font-family: fawe; font-size: .8em; width: 40px; display: inline-block; text-align: center;}
-#doclist li {
+#manlist h2 { color: #817565; font-weight: 500; }
+#manlist i.i:before { font-family: fawe; font-size: .8em; width: 40px; display: inline-block; text-align: center;}
+#manlist li {
     list-style-position: inside;
     margin-left: 0;
     list-style-position: outside;
     margin-left: 35px;
 }
-#doclist li a { font-weight: 500;}
+#manlist li a { font-weight: 500;}
 
 /* hugo gen chromastyles --style=monokai >> themes/justatheory/static/css/screen.css */
 /* Background */ pre, .chroma { color: #f8f8f2; background-color: #333 } /* Modified to add pre and to lighten background */
