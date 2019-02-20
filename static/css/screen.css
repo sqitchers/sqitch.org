@@ -186,7 +186,7 @@ body {
 }
 
 @media only screen and (max-width: 550px) {
-    main { font-size: 1.3em; }
+    main { font-size: 1.3em; line-height: 1.4em }
 }
 
 a, a:visited { color: #22538e; text-decoration: none }
@@ -408,6 +408,11 @@ body > footer .code:before {
     display: inline-block;
  }
 
+ @media only screen and (max-width: 550px) {
+    .page section:before { font-size: 1.8em };
+}
+
+
  #info li {
     list-style-type: none;
     width: 100%;
@@ -438,7 +443,7 @@ body > footer .code:before {
     opacity: 0.6;
     float:left;
     text-align: center;
-    padding: 0 15px 50px 0;
+    padding: 0 15px 80px 0;
 }
 
 #info a:hover:before {
@@ -539,7 +544,7 @@ p pre code, li pre code {
 }
 
 .mono, pre, code, tt, p code, li code {
-    font-size: .9em;
+    font-size: .85em;
     font-family: "Source Code Pro", "Courier", monospace
 }
 
@@ -559,6 +564,10 @@ p pre code, li pre code {
     text-align: center;
     color: #817565;
     width: 1.2em;
+}
+
+@media only screen and (max-width: 550px) {
+    #docidx section:before { font-size: 2.5em; padding: 16px 12px 16px 0; }
 }
 
 #docidx section.video:before {
