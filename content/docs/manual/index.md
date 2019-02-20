@@ -48,7 +48,7 @@ The official and comprehensive **manual** included the Sqitch package itself.
 <i class="i teach"></i>Tutorials
 ---------
 
-*   [🐘 Postgres](/docs/manual/sqitch-tutorial/) - A tutorial introduction to Sqitch change management on PostgreSQL
+*   [🐘 Postgres](/docs/manual/sqitchtutorial/) - A tutorial introduction to Sqitch change management on PostgreSQL
 *   [💡 SQLite](/docs/manual/sqitchtutorial-sqlite/) - A tutorial introduction to Sqitch change management on SQLite
 *   [🐬 MySQL](/docs/manual/sqitchtutorial-mysql/) - A tutorial introduction to Sqitch change management on MySQL
 *   [🔥 Firebird](/docs/manual/sqitchtutorial-firebird/) - A tutorial introduction to Sqitch change management on Firebird

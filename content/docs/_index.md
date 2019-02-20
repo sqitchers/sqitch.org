@@ -21,14 +21,14 @@ Tutorials
 New to Sqitch? Start with the tutorial for your preferred database engine to
 learn how to create, develop, and maintain a database with Sqitch.
 
-*   [🐘 Postgres Tutorial](/docs/sqitch-tutorial/)
-*   [💡 SQLite Tutorial](/docs/sqitchtutorial-sqlite/)
-*   [🐬 MySQL Tutorial](/docs/sqitchtutorial-mysql/)
-*   [🔥 Firebird Tutorial](/docs/sqitchtutorial-firebird/)
-*   [☀️ Exasol Tutorial](/docs/sqitchtutorial-exasol/)
-*   [🔮 Oracle Tutorial](/docs/sqitchtutorial-oracle/)
-*   [❄️ Snowflake Tutorial](/docs/sqitchtutorial-snowflake/)
-*   [🔺 Vertica Tutorial](/docs/sqitchtutorial-vertica/)
+*   [🐘 Postgres Tutorial](/docs/manual/sqitchtutorial/)
+*   [💡 SQLite Tutorial](/docs/manual/sqitchtutorial-sqlite/)
+*   [🐬 MySQL Tutorial](/docs/manual/sqitchtutorial-mysql/)
+*   [🔥 Firebird Tutorial](/docs/manual/sqitchtutorial-firebird/)
+*   [☀️ Exasol Tutorial](/docs/manual/sqitchtutorial-exasol/)
+*   [🔮 Oracle Tutorial](/docs/manual/sqitchtutorial-oracle/)
+*   [❄️ Snowflake Tutorial](/docs/manual/sqitchtutorial-snowflake/)
+*   [🔺 Vertica Tutorial](/docs/manual/sqitchtutorial-vertica/)
 
 {{% /section %}}
 
