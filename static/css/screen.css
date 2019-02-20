@@ -339,7 +339,8 @@ main > section:first-of-type { border: none !important; }
     padding-left: 16px;
 }
 
-#bar i, .code:before, #info a:before, .page section:before {
+#bar a:hover { text-decoration: none }
+#bar a, .code:before, #info a:before, .page section:before {
     font-family: fawe;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
