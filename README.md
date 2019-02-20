@@ -84,13 +84,13 @@ Author
 The project is maintained by the [Sqitchers].
 
   [Hugo]: https://gohugo.io "The world’s fastest framework for building websites"
-  [Sqitch repository]: /sqitchers/sqitch
+  [Sqitch repository]: https://github.com/sqitchers/sqitch
   [Makefile]: Makefile
-  [published site repository]: /sqitchers/sqitchers.github.io
+  [published site repository]: https://github.com/sqitchers/sqitchers.github.io
   [`gendocs`]: bin/gendocs
   [ignores]: .gitignore
   [`hugo new`]: https://gohugo.io/commands/hugo_new/
   [Hugo docs]: https://gohugo.io/documentation/
   [by Hugo]: https://gohugo.io/commands/hugo_server/
-  [David E. Wheeler]: /theory/
-  [Sqitchers]: /sqitchers/
+  [David E. Wheeler]: https://github.com/theory/
+  [Sqitchers]: https://github.com/sqitchers/
