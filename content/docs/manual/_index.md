@@ -1,6 +1,6 @@
 ---
 title: "Sqitch Documentation"
-id: doclist
+id: manlist
 ---
 
 The official and comprehensive **man pages** included the Sqitch package itself.

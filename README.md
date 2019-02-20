@@ -16,7 +16,7 @@ are:
 
 Builds the site by taking the following steps:
 
-*   Builds the Sqitch documentation Markdown pages (see `make docs` below)
+*   Builds the Sqitch documentation Markdown pages (see `make manual` below)
 *   Updates the `public` subdirectory, which is a submodule pointing to the
     [published site repository]
 *   Removes all the files from the `public` subdirectory
