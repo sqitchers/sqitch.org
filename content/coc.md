@@ -56,8 +56,8 @@ representative at an online or offline event. Representation of a project may be
 further defined and clarified by project maintainers.
 
 This Code of Conduct also applies outside the project spaces when the project
-team has a reasonable belief that an individual’s behavior may have a negative
-impact on the project or its community.
+maintainers determine that an individual's actions would be unacceptable had
+those actions taken place within the context of the community.
 
 ## Enforcement
 
