@@ -5,7 +5,9 @@ type: single
 
 {{% section id="hi" %}}
 
-Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system.
+Sane database change management for people who cherish iterative development and dependable deployment.
+
+<!-- Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system. -->
 
 <a href="/download/" class="download" title="Download Sqitch"> Download</a>
 <a href="/about/" title="About Sqitch">New to Sqitch?</a>
