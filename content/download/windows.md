@@ -1,5 +1,5 @@
 ---
-title: "Sqitch on macOS"
+title: "Sqitch on Windows"
 description: Install Sqitch on Strawberry Perl for Windows.
 id: install
 ---
