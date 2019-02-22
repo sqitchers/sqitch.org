@@ -4,7 +4,7 @@ description: Download and install the Sqitch source from CPAN or GitHub.
 id: install
 ---
 
-{{% section class="code" %}}
+{{% section class="zip" %}}
 
 The canonical source for Sqitch releases is [CPAN]. Use the cpan or [cpanminus]
 client to download and build Sqitch and its dependencies from source, as well as
@@ -22,12 +22,13 @@ The database drivers for each engine are:
 *   Firebird: `DBD::Firebird`
 *   Vertica, Exasol, Snowflake: `DBD::ODBC`
 
-[CPAN]: https://metacpan.org/release/App-Sqitch "Sqitch on MetaCPAN"
-[cpanminus]: https://cpanmin.us
-
-
 The current version of Sqitch is `v0.9999`. Download the source from these
-location [GitHub](https://github.com/sqitchers/sqitch/releases/) or
-[CPAN](https://metacpan.org/release/App-Sqitch).
+location [GitHub] or [CPAN]. Or clone the latest version:
+
+    git clone https://github.com/sqitchers/sqitch.git
+
+  [CPAN]: https://metacpan.org/release/App-Sqitch "Sqitch on MetaCPAN"
+  [cpanminus]: https://cpanmin.us
+  [GitHub]: https://github.com/sqitchers/sqitch/releases/ "Sqitch on GitHub"
 
 {{% /section %}}
