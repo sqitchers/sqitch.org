@@ -29,4 +29,5 @@
 .icon-docker { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf395;&nbsp;'); }
 .icon-chalkboard-teacher { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf51c;&nbsp;'); }
 .icon-centos { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf789;&nbsp;'); }
+.icon-redhat { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf7bc;&nbsp;'); }
 .icon-ubuntu { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf7df;&nbsp;'); }
