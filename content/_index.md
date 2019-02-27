@@ -1,11 +1,13 @@
 ---
-title: "Sqitch: Sane database change management"
+title: "Sqitch: Sensible database change management"
 type: single
 ---
 
 {{% section id="hi" %}}
 
-Sane database change management for people who cherish iterative development and dependable deployment.
+<!-- The framework-neutral, database-loving, developer-friendly, dependable database change management system. -->
+
+Sensible, framework-neutral, database-native change management for iterative development and dependable deployment.
 
 <!-- Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system. -->
 
