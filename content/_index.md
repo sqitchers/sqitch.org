@@ -7,7 +7,7 @@ type: single
 
 <!-- The framework-neutral, database-loving, developer-friendly, dependable database change management system. -->
 
-Sensible, framework-neutral, database-native change management for iterative development and dependable deployment.
+Sensible database-native change management for framework-neutral iterative development and dependable deployment.
 
 <!-- Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system. -->
 
