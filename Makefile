@@ -19,3 +19,7 @@ deploy: build
 
 server: manual
 	hugo server -D --bind 0.0.0.0
+
+# Requires imagemagick
+favicon:
+	convert -background transparent static/img/icon-48.png -define icon:auto-resize=16,24,32,48 static/favicon.ico

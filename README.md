@@ -60,6 +60,13 @@ This server is provided [by Hugo] and binds to all available network addresses,
 so that you can connect from other devices if you know the IP address of the
 host. Useful for browser and device compatibility testing.
 
+### `make favicon`
+
+Uses [ImageMagick] to build a [Favicon] file containing set of [16x16, 32x32 and
+48x48 images in ICO format][so-ico] from [`static/img/icon-48.png`], which
+should be generated from the [Sqitch Sketch file]. Likely only to be needed if
+the image files get regenerated.
+
 ### `hugo new`
 
 Use the [`hugo new`] command to create new content pages. For example, to add 
@@ -94,3 +101,8 @@ The project is maintained by the [Sqitchers].
   [by Hugo]: https://gohugo.io/commands/hugo_server/
   [David E. Wheeler]: https://github.com/theory/
   [Sqitchers]: https://github.com/sqitchers/
+  [ImageMagick]: http://www.imagemagick.org/
+  [Favicon]: https://en.wikipedia.org/wiki/Favicon
+  [so-ico]: https://stackoverflow.com/a/23734416 "Stack Overflow: “Favicon dimensions?”"
+  [`static/img/icon-48.png`]: static/img/icon-48.png
+  [Sqitch Sketch file]: resources/sqitch.sketch
