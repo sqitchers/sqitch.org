@@ -588,11 +588,6 @@ p pre code, li pre code {
      padding-top: 14px !important;
 }
 
-#docidx h3 , #download h3 {
-    clear:both;
-    margin-top: 1em;
-    color: #22538e;
-}
 #docidx section ul, #download section ul { margin-bottom: 0; }
 
 #manlist h2 { color: #776c5e; font-weight: 500; }
