@@ -5,12 +5,11 @@ id: logos
 
 {{% section class="cc" %}}
 
-Like the rest of [this site], the Sqitch logo by [David E. Wheeler] is provided
-under the [Creative Commons Attribution 4.0 International License][cc-by]. This license
-lets others distribute, remix, tweak, and build upon the work, even
-commercially, as long as they credit the author for the original creation.
+The Sqitch logo by [David E. Wheeler] is provided under the [Creative Commons
+Attribution 4.0 International License][cc-by]. This license lets others
+distribute, remix, tweak, and build upon the work, even commercially, as long as
+they credit the author for the original creation.
 
-[this site]: /site/
 [David E. Wheeler]: https://github.com/theory/
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 
