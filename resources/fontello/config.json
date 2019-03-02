@@ -328,6 +328,12 @@
         "branch",
         "fork"
       ]
+    },
+    {
+      "uid": "e9b178b4a02c08399ca5ea10ba522528",
+      "css": "creative-commons",
+      "code": 62046,
+      "src": "fontawesome"
     }
   ]
 }

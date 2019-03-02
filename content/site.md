@@ -14,10 +14,10 @@ various licenses, and bugs reports should be directed to the appropriate
 repositories:
 
 *   Most of the "base" site content is hosted in the [sqitchers/sqitch.org]
-    repository on GitHub. That includes all pages except the manpages, along
+    repository on GitHub. That includes all pages except [the manual], along
     with the general design of the site. Bug reports and suggestions may be made
     in that repository. This content is available under the [Creative Commons
-    Attribution 4.0 International License].
+    Attribution 4.0 International License][cc-by].
 *   Bugs in the Sqitch software itself should similarly go to the [Sqitch
     community].
 
@@ -45,7 +45,8 @@ custom font. The [hero photo] depecting the [Herzog & de Meuron]-designed
 This site eschews JavaScript, and uses no tracking or analytics services.
 
 [sqitchers/sqitch.org]: https://github.com/sqitchers/sqitch.org
-[Creative Commons Attribution 4.0 International License]: http://creativecommons.org/licenses/by/4.0/
+[the manual]: /docs/manual/
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
 [Sqitch community]: /community/
 [David E. Wheeler]: https://github.com/theory "David E. Wheeler on GitHub"
 [GitHub Pages]: https://pages.github.com

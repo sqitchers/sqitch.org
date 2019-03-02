@@ -35,6 +35,7 @@
 .icon-database { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1c0;&nbsp;'); }
 .icon-file-archive { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1c6;&nbsp;'); }
 .icon-newspaper { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf1ea;&nbsp;'); }
+.icon-creative-commons { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf25e;&nbsp;'); }
 .icon-hashtag { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf292;&nbsp;'); }
 .icon-sync-alt { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf2f1;&nbsp;'); }
 .icon-docker { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf395;&nbsp;'); }
