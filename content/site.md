@@ -35,10 +35,10 @@ the individual repository histories for a complete list.
 Colophon
 --------
 
-*Sqitch* is written in [Markdown], built and published with [Hugo], and hosted
+sqitch.org is written in [Markdown], built and published with [Hugo], and hosted
 on [GitHub Pages]. Its set in [Alegreya Sans], with fixed-width type set in
 [Source Code Pro]. The icons are by [Font Awesome], encoded in a [Fontello]
-custom font. The [hero photo] depecting the [Herzog & de Meuron]-designed
+custom font. The [hero photo] depicting the [Herzog & de Meuron]-designed
 [Messeplatz "window to the heavens"] was taken by [Ricardo Gomez Angel] \(via
 [Unsplash]).
 
