@@ -8,8 +8,15 @@ void (function (root, factory) {
 	var DETAILS = 'details'
 	var SUMMARY = 'summary'
 
-	// Skip the remainder if details is supported by the browser.
-	if (supportsDetails()) return
+	if (supportsDetails()) {
+		// Arrange to hide details when click elsewhere.
+		var deets = document.getElementById('toc')
+		deets.addEventListener("toggle", function(e)  {
+			if (deets.open) addEventListener('click', unfocusHandler)
+		});
+		// Skip the remainder if details is supported by the browser.
+		return
+	}
   
 	// Add class, event listener, and meta classes.
 	document.documentElement.className += ' no-details'
@@ -29,8 +36,20 @@ void (function (root, factory) {
 			} else {
 				details.open = true
 				details.setAttribute('open', 'open')
+				addEventListener('click', unfocusHandler)
 			}
 	  	}
+	}
+
+	// Closes details on any click.
+	function unfocusHandler (e) {
+		removeEventListener('click', unfocusHandler);
+		if (e.target.nodeName.toLowerCase() === 'summary') return
+		deets = document.getElementById('toc')
+		if (deets.open) {
+			deets.open = false
+			deets.removeAttribute('open')
+		}
 	}
   
 	// https://mathiasbynens.be/notes/html5-details-jquery (MIT)
