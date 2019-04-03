@@ -1,5 +1,6 @@
 // Simple JavaScript to polyfill TOC details/summary support when the browser
-// doesn't support it. https://github.com/rstacruz/details-polyfill (MIT)
+// doesn't support it, and to close the TOC on any click. Based on
+// https://github.com/rstacruz/details-polyfill (MIT)
 void (function (root, factory) {
 	if (typeof define === 'function' && define.amd) define(factory)
 	else if (typeof exports === 'object') module.exports = factory()
@@ -23,7 +24,7 @@ void (function (root, factory) {
 			'html.no-details details[open] > summary:before {}')
 	}
 
-	// Click handler to close TOC details.
+	// Sets up click handler to close TOC details.
 	function setupUnfocus(deets) {
 		var unfocus = function (e) {
 			window.removeEventListener('click', unfocus)
