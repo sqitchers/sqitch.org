@@ -52,7 +52,7 @@ sub new {
     return $self;
 }
 
-# Mak each header one greater (=head1 => ##, =head2 => ###, etc.).
+# Make each header one greater (=head1 => ##, =head2 => ###, etc.).
 sub _start_head { $_[0]->{head_level} = $_[1]; $_[0]->SUPER::_start_head( $_[1] + 1 ) }
 sub _end_head   { $_[0]->{head_level} = 0;     $_[0]->SUPER::_end_head(   $_[1] + 1 ) }
 
