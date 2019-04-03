@@ -15,6 +15,7 @@
 	<link rel="mask-icon" href="/img/sqitch-icon-black.svg" color="#22538e" />
 	<meta name="msapplication-TileColor" content="#22538e" />
 	<meta name="theme-color" content="#fcffff" />
+	{{- if .Params.toc }}<script src="/js/toc.js"></script>{{ end }}
 	{{ .Hugo.Generator }}
 </head>
 <body>

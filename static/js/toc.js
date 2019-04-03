@@ -1,30 +1,39 @@
-// Simple JavaScript to polyfill details/summary support when the browser
+// Simple JavaScript to polyfill TOC details/summary support when the browser
 // doesn't support it. https://github.com/rstacruz/details-polyfill (MIT)
 void (function (root, factory) {
 	if (typeof define === 'function' && define.amd) define(factory)
 	else if (typeof exports === 'object') module.exports = factory()
 	else factory()
 } (this, function () {
-	var DETAILS = 'details'
-	var SUMMARY = 'summary'
-
 	if (supportsDetails()) {
-		// Arrange to hide details when click elsewhere.
-		var deets = document.getElementById('toc')
-		deets.addEventListener("toggle", function(e)  {
-			if (deets.open) addEventListener('click', unfocusHandler)
-		});
-		// Skip the remainder if details is supported by the browser.
-		return
+		// Install listeners on open that close on any click.
+		var elems = document.getElementsByClassName('toc')
+		for (var i = 0; i < elems.length; i++) {
+			deets = elems[i].firstElementChild
+			deets.addEventListener("toggle", function(e) {
+				if (deets.open) setupUnfocus(deets)
+			})
+		}
+	} else {
+		// Add class, event listener, and meta classes.
+		document.documentElement.className += ' no-details'
+		window.addEventListener('click', clickHandler)
+		injectStyle('details-polyfill-style',
+			'html.no-details details:not([open]) > :not(summary) { display: none; }\n' +
+			'html.no-details details[open] > summary:before {}')
 	}
-  
-	// Add class, event listener, and meta classes.
-	document.documentElement.className += ' no-details'
-	window.addEventListener('click', clickHandler)
-	injectStyle('details-polyfill-style',
-		'html.no-details ' + DETAILS + ':not([open]) > :not(' + SUMMARY + ') { display: none; }\n' +
-		'html.no-details ' + DETAILS + '[open] > ' + SUMMARY + ':before {}')
-  
+
+	// Click handler to close TOC details.
+	function setupUnfocus(deets) {
+		var unfocus = function (e) {
+			removeEventListener('click', unfocus);
+			if (!deets.open || e.target.nodeName.toLowerCase() === 'summary') return
+			deets.open = false
+			deets.removeAttribute('open')
+		}
+		addEventListener('click', unfocus)
+	}
+
 	// Click handler for `<summary>` tags
 	function clickHandler (e) {
 		if (e.target.nodeName.toLowerCase() === 'summary') {
@@ -36,20 +45,9 @@ void (function (root, factory) {
 			} else {
 				details.open = true
 				details.setAttribute('open', 'open')
-				addEventListener('click', unfocusHandler)
+				setupUnfocus(details)
 			}
 	  	}
-	}
-
-	// Closes details on any click.
-	function unfocusHandler (e) {
-		removeEventListener('click', unfocusHandler);
-		if (e.target.nodeName.toLowerCase() === 'summary') return
-		deets = document.getElementById('toc')
-		if (deets.open) {
-			deets.open = false
-			deets.removeAttribute('open')
-		}
 	}
   
 	// https://mathiasbynens.be/notes/html5-details-jquery (MIT)
