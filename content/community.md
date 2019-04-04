@@ -51,6 +51,9 @@ Not familiar with IRC or don't have an IRC client? Just [connect in your browser
 {{% /section %}}
 {{% section class="so" %}}
 
+Stack Overflow
+--------------
+
 If you're not a mail list or IRC person, or want to focus on a specific question
 and the recording of canonical answers, log into [Stack Overflow] and tag your
 questions with `sqitch`. Or have a look at existing [Sqitch questions] to see if
