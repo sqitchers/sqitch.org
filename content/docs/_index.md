@@ -8,7 +8,7 @@ id: docidx
 [Reference Manual]
 ------------------
 
-The official and comprehensive **man pages** included the Sqitch package itself.
+The official and comprehensive manual pages included the Sqitch package itself.
 
 [Reference Manual]: /docs/manual/
 

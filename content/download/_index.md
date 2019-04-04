@@ -9,7 +9,7 @@ toc: true
 Distributions
 -------------
 
-Download an install Sqitch from the most appropriate source for your system.
+Download and install Sqitch from the most appropriate source for your system.
 The Docker image is the quickest way to get started.
 
 *   [Source](source) - Install from CPAN or GitHub

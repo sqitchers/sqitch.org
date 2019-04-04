@@ -38,7 +38,7 @@ they credit the author for the original creation.
 
     <div class="wlogo">
         <img src="/img/sqitch-logo-white.png" srcset="/img/sqitch-logo-white.svg" alt="White Sqitch Logo" title="White Sqitch Logo" class="light" />
-        <h4>White Sqitch logo for light backgrounds</h4>
+        <h4>White Sqitch logo for dark backgrounds</h4>
         <ul>
             <li><a href="/img/sqitch-logo-white.png">PNG</a></li>
             <li><a href="/img/sqitch-logo-white.svg">SVG</a></li>
@@ -70,7 +70,7 @@ they credit the author for the original creation.
 
     <div class="wmark">
         <img src="/img/sqitch-mark-white.png" srcset="/img/sqitch-mark-white.svg" alt="White Sqitch Logo Mark" title="White Sqitch Logo Mark" class="light" />
-        <h4>White Sqitch logo mark for light backgrounds</h4>
+        <h4>White Sqitch logo mark for dark backgrounds</h4>
         <ul>
             <li><a href="/img/sqitch-mark-white.png">PNG</a></li>
             <li><a href="/img/sqitch-mark-white.svg">SVG</a></li>
@@ -102,7 +102,7 @@ they credit the author for the original creation.
 
     <div class="wicon">
         <img src="/img/icon-white.png" srcset="/img/icon-white.svg" alt="White and Black Sqitch Icon" title="White and Black Sqitch Icon" class="light" />
-        <h4>White and black Sqitch icon for light backgrounds</h4>
+        <h4>White and black Sqitch icon for dark backgrounds</h4>
         <ul>
             <li><a href="/img/icon-white.png">PNG</a></li>
             <li><a href="/img/icon-white.svg">SVG</a></li>

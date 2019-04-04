@@ -8,7 +8,7 @@ id: install
 
 On Red Hat-derived systems (including CentOS, Fedora, Scientific, Oracle, etc.),
 use [Yum] to install dependencies, and then build Sqitch itself via [cpanminus].
-For example, to install Sqitch with support for PostgreSQL:
+For example, to install Sqitch with support for [PostgreSQL]:
 
     sudo yum install perl-devel perl-CPAN postgresql perl-DBD-Pg
     curl -L https://cpanmin.us | perl - --sudo App::cpanminus
@@ -17,7 +17,7 @@ For example, to install Sqitch with support for PostgreSQL:
 The client and connection libraries for each engine are:
 
 *   PostgreSQL: `postgresql perl-DBD-Pg`
-*   SQLite: `install sqlite perl-DBD-SQLite`
+*   SQLite: `sqlite perl-DBD-SQLite`
 *   Oracle: `perl-DBD-Oracle`
 *   MySQL: `mysql perl-DBD-mysql`
 *   Firebird: `firebird-classic perl-DBD-Firebird perl-Time-HiRes`
@@ -25,5 +25,7 @@ The client and connection libraries for each engine are:
 
   [Yum]: http://yum.baseurl.org
   [cpanminus]: https://cpanmin.us
+  [PostgreSQL]: https://postgresql.org/
+    "PostgreSQL: The World's Most Advanced Open Source Relational Database"
 
 {{% /section %}}

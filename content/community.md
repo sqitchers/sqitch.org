@@ -1,9 +1,9 @@
 ---
 title: "Community"
-description: The Sqitch community warmly welcomes your participation. We welcome discussion and contributions from anyone and everyone, at every level of knowledge and skill.
+description: The Sqitch community warmly invites your participation. We welcome discussion and contributions from anyone and everyone, at every level of knowledge and skill.
 ---
 
-The Sqitch community warmly welcomes your participation. We welcome discussion
+The Sqitch community warmly invites your participation. We welcome discussion
 and contributions from anyone and everyone, at every level of knowledge and
 skill. In the interest of fostering an open and welcoming environment, all
 members of the community must abide by the [Sqitch Community Code of
@@ -27,6 +27,39 @@ you've missed so far, or to see if a question has already been answered.
  [list]: https://groups.google.com/group/sqitch-users "Sqitch Users mail list"
  [subscribe]: mailto:sqitch-users+subscribe@googlegroups.com "Subscribe to sqitch-users"
  [post]: mailto:sqitch-users@googlegroups.com "Post to sqitch-users"
+
+{{% /section %}}
+{{% section class="forum" %}}
+
+IRC
+---
+
+For more informal discussion, hit the `#sqitch` IRC channel on [Freenode]
+(irc.freenode.net). The channel regularly hosts numerous people at all levels of
+knowledge, from beginners just getting started with Sqitch to experts with many
+projects under their belts. Ad hoc development discussions and coordination
+periodically break out among the maintainers as well.
+
+Not familiar with IRC or don't have an IRC client? Just [connect in your browser].
+
+  [Freenode]: https://freenode.net
+    "freenode.net - Supporting Free and Open Source Software Communities since 1998"
+  [connect in your browser]: https://webchat.freenode.net/?randomnick=1&channels=%23sqitch
+    "Chat on the #sqitch channel now"
+
+
+{{% /section %}}
+{{% section class="so" %}}
+
+If you're not a mail list or IRC person, or want to focus on a specific question
+and the recording of canonical answers, log into [Stack Overflow] and tag your
+questions with `sqitch`. Or have a look at existing [Sqitch questions] to see if
+your question has bee answered already.
+
+[Stack Overflow]: https://stackoverflow.com/
+[Sqitch questions]: https://stackoverflow.com/questions/tagged/sqitch
+  "Stack Overflow: “Questions tagged \[sqitch\]”"
+
 
 {{% /section %}}
 {{% section class="bug" %}}
