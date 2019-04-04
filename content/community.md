@@ -57,7 +57,7 @@ Stack Overflow
 If you're not a mail list or IRC person, or want to focus on a specific question
 and the recording of canonical answers, log into [Stack Overflow] and tag your
 questions with `sqitch`. Or have a look at existing [Sqitch questions] to see if
-your question has bee answered already.
+your question has been answered already.
 
 [Stack Overflow]: https://stackoverflow.com/
 [Sqitch questions]: https://stackoverflow.com/questions/tagged/sqitch
