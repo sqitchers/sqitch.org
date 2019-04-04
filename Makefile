@@ -8,7 +8,7 @@ manual:
 
 build: manual
 	git submodule update --init -- public
-	cd public && git clean -dfx && git rm -rf --ignore-unmatch .
+	cd public && git clean -dfx && git rm -rf --ignore-unmatch . && git reset HEAD -- README.md && git checkout README.md
 	hugo
 
 deploy: build
