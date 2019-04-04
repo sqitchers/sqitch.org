@@ -18,6 +18,7 @@
 .icon-terminal:before { content: '\f120'; } /* '' */
 .icon-code:before { content: '\f121'; } /* '' */
 .icon-code-branch:before { content: '\f126'; } /* '' */
+.icon-stackoverflow:before { content: '\f16c'; } /* '' */
 .icon-apple:before { content: '\f179'; } /* '' */
 .icon-windows:before { content: '\f17a'; } /* '' */
 .icon-bug:before { content: '\f188'; } /* '' */

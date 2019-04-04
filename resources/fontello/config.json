@@ -313,6 +313,12 @@
       ]
     },
     {
+      "uid": "e9b178b4a02c08399ca5ea10ba522528",
+      "css": "creative-commons",
+      "code": 62046,
+      "src": "fontawesome"
+    },
+    {
       "uid": "e94f63363f95b8cdcfab30764087b418",
       "css": "sqitch",
       "code": 59404,
@@ -330,9 +336,9 @@
       ]
     },
     {
-      "uid": "e9b178b4a02c08399ca5ea10ba522528",
-      "css": "creative-commons",
-      "code": 62046,
+      "uid": "e1597911f34fea0a188ae51fe4a2d9a9",
+      "css": "stackoverflow",
+      "code": 61804,
       "src": "fontawesome"
     }
   ]
