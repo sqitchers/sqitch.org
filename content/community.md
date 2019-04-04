@@ -47,7 +47,6 @@ Not familiar with IRC or don't have an IRC client? Just [connect in your browser
   [connect in your browser]: https://webchat.freenode.net/?randomnick=1&channels=%23sqitch
     "Chat on the #sqitch channel now"
 
-
 {{% /section %}}
 {{% section class="so" %}}
 
@@ -62,7 +61,6 @@ your question has been answered already.
 [Stack Overflow]: https://stackoverflow.com/
 [Sqitch questions]: https://stackoverflow.com/questions/tagged/sqitch
   "Stack Overflow: “Questions tagged \[sqitch\]”"
-
 
 {{% /section %}}
 {{% section class="bug" %}}
