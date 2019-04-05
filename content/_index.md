@@ -12,7 +12,7 @@ Sensible database-native change management for framework-free development and de
 
 {{% /section %}}
 
-<main>
+<main id="home">
 	<section id="info">
 		<nav>
 			<ul>
@@ -34,5 +34,12 @@ Sensible database-native change management for framework-free development and de
 				</li>
 			</ul>
 		</nav>
+	</section>
+	<section id="orgs">
+		<h3>Organizations and Projects Using Sqitch</h3>
+		<ul>
+			<li><a href="https://iovation.com/" title="iovation"><img src="/img/iovation.svg" alt="iovation Logo" /></a></li>
+			<li><a href="https://taustation.space/" title="Tau Station"><img src="/img/taustation.svg" alt="Tau Station Logo" /></li>
+		</ul>
 	</section>
 </main>
