@@ -10,7 +10,7 @@ The [Debian Sqitch Apt] package tends to lag behind several versions, but
 provides easy access to Debian and Ubuntu users. For example, to install Sqitch
 with [PostgreSQL] and [SQLite] support:
 
-    apg-get install sqitch libdbd-pg-perl postgresql-client libdbd-sqlite3-perl sqlite3
+    apt-get install sqitch libdbd-pg-perl postgresql-client libdbd-sqlite3-perl sqlite3
 
 An alternative that gets you the latest version of Sqitch is to just `apt-get`
 the external dependencies, and then build Sqitch itself via [cpanminus]. To
