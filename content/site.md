@@ -10,7 +10,7 @@ Open Source
 -----------
 
 The content on this site is pulled from multiple sources. It is available under
-various licenses, and bugs reports should be directed to the appropriate
+various licenses, and bug reports should be directed to the appropriate
 repositories:
 
 *   Most of the "base" site content is hosted in the [sqitchers/sqitch.org]
