@@ -8,7 +8,7 @@ id: docidx
 [Reference Manual]
 ------------------
 
-The official and comprehensive manual pages included the Sqitch package itself.
+The official and comprehensive manual pages included in the Sqitch package itself.
 
 [Reference Manual]: /docs/manual/
 
@@ -55,7 +55,7 @@ January 2014, covering source code control with Git, database change control
 with Sqitch, and test-driven database development with [pgTAP].
 
 *   [Speaker Deck](https://speakerdeck.com/theory/agile-database-development-2ed)
-*   [Kenote](https://www.icloud.com/iw/#keynote/BAJN1kHfLmpMcwXIXOqByV75FvbX6AgfEbWE/agile_database_development_iovation.key)
+*   [Keynote](https://www.icloud.com/iw/#keynote/BAJN1kHfLmpMcwXIXOqByV75FvbX6AgfEbWE/agile_database_development_iovation.key)
 *   [PDF](https://speakerd.s3.amazonaws.com/presentations/460b5b905af60131df53620ea5c6d896/agile_database_development_iovation.pdf)
 
 [PGCon]: https://www.pgcon.org/2013/schedule/events/615.en.html
