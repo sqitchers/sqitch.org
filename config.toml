@@ -14,3 +14,11 @@ pygmentsStyle = "monokai"
 
 [markup]
   defaultMarkdownHandler = "blackfriday"
+
+# Adding Goldmark config, but still using blackfriday, because the Common Mark
+# standard requries only two spaces to indent a code block in a list item, while
+# Markdown (and Blackfriday) require four. So with Goldmark we end up with code
+# blocks inside list blocks with extra spaces at the beginning of each line.
+# Complaints: https://twitter.com/theory/status/1262098089214717952
+[markup.goldmark.renderer]
+  unsafe = true
