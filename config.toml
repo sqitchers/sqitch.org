@@ -11,3 +11,6 @@ pygmentsStyle = "monokai"
 
 [params]
   description = "Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system."
+
+[markup]
+  defaultMarkdownHandler = "blackfriday"
