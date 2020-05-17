@@ -6,7 +6,7 @@ manual:
 	rm -f content/docs/manual/sqitch*
 	bin/gen_manual
 
-build: manual
+build: #manual
 	git submodule update --init -- public
 	cd public && git clean -dfx && git rm -rf --ignore-unmatch . && git reset HEAD -- README.md CNAME && git checkout README.md CNAME
 	hugo

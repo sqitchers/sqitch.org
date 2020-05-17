@@ -21,6 +21,7 @@ The official and comprehensive **manual** included the Sqitch package itself.
 *   [add](/docs/manual/sqitch-add/) - Add a database change to plans
 *   [bundle](/docs/manual/sqitch-bundle/) - Bundle a Sqitch project for distribution
 *   [checkout](/docs/manual/sqitch-checkout/) - Revert, checkout another VCS branch, and re-deploy changes
+*   [check](/docs/manual/sqitch-check/) - Checks for divergences between planned and deployed changes
 *   [plan](/docs/manual/sqitch-plan/) - Show planned database changes
 *   [rebase](/docs/manual/sqitch-rebase/) - Revert and redeploy database changes
 *   [rework](/docs/manual/sqitch-rework/) - Rework a database change
