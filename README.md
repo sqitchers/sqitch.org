@@ -28,7 +28,7 @@ Builds the Sqitch manual content pages from the Pod files in the [Sqitch
 repository] by taking the following steps:
 
 *   Updates the `sqitch` subdirectory, which is a submodule pointing to the
-    [Sqitch repository]'s master branch, on the assumption that it represents
+    [Sqitch repository]'s main branch, on the assumption that it represents
     the current stable release
 *   Removes the files matching `content/docs/manual/sqitch*`
 *   Runs [`gen_manual`], a Perl script that searches for all the Sqitch

@@ -15,7 +15,7 @@ deploy: build
 	cd public; \
 	git add . ; \
 	git commit -m "rebuilding site `date -u +%Y-%m-%dT%H:%M:%SZ`"; \
-	git push origin master
+	git push origin main
 
 server: manual
 	hugo server -D --bind 0.0.0.0
