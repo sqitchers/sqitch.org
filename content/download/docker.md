@@ -12,7 +12,7 @@ with Sqitch. It supports [PostgreSQL], [SQLite], [MariaDB] \([MySQL]), and
 executable, and go:
 
     docker pull sqitch/sqitch
-    curl -L https://git.io/fAX6Z -o sqitch && chmod +x sqitch
+    curl -L https://git.io/JJKCn -o sqitch && chmod +x sqitch
     ./sqitch help
 
 Set the `$SQITCH_IMAGE` environment variable to run a different Sqitch image
