@@ -1,6 +1,7 @@
 ---
 title: "Sqitch: Sensible database change management"
 type: single
+description: Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system.
 ---
 
 {{% section id="hi" %}}
