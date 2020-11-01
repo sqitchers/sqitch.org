@@ -3,10 +3,10 @@
 use v5.10;
 use strict;
 use warnings;
-use File::Spec::Functions qw(catdir catfile);
+use File::Spec::Functions qw(catdir catfile updir);
 use File::Basename;
 
-my $dir = 'sqitch';
+my $dir = shift || catdir updir, 'sqitch';
 my $src = catdir $dir, 'lib';
 my $dst = catdir qw(content docs manual);
 

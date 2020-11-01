@@ -1,10 +1,11 @@
 BUILD_DIR=public
 .DEFAULT_GOAL := build
+SQITCH_SOURCE ?= ../sqitch
+
 
 manual:
-	git submodule update --init --remote -- sqitch
 	rm -f content/docs/manual/sqitch*
-	bin/gen_manual
+	bin/gen_manual "${SQITCH_SOURCE}"
 
 build: manual
 	git submodule update --init -- public

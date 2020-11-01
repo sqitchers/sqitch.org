@@ -2,7 +2,3 @@
 	path = public
 	url = git@github.com:sqitchers/sqitchers.github.io.git
 	branch = main
-[submodule "sqitch"]
-	path = sqitch
-	url = git@github.com:sqitchers/sqitch.git
-	branch = main
