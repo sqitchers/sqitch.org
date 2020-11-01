@@ -13,7 +13,7 @@ pygmentsStyle = "monokai"
   description = "Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system."
 
 [markup]
-  defaultMarkdownHandler = "blackfriday"
+  # defaultMarkdownHandler = "blackfriday"
 
 # Adding Goldmark config, but still using blackfriday, because the Common Mark
 # standard requries only two spaces to indent a code block in a list item, while

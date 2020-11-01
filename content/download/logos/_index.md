@@ -25,7 +25,6 @@ they credit the author for the original creation.
             <li><a href="/img/sqitch-logo.eps">EPS</a></li>
         </ul>
     </div>
-
     <div class="blogo">
         <img src="/img/sqitch-logo-black.png" srcset="/img/sqitch-logo-black.svg" alt="Black Sqitch Logo" title="Black Sqitch Logo" />
         <h4>Black Sqitch logo for light backgrounds</h4>
@@ -35,7 +34,6 @@ they credit the author for the original creation.
             <li><a href="/img/sqitch-logo-black.eps">EPS</a></li>
         </ul>
     </div>
-
     <div class="wlogo">
         <img src="/img/sqitch-logo-white.png" srcset="/img/sqitch-logo-white.svg" alt="White Sqitch Logo" title="White Sqitch Logo" class="light" />
         <h4>White Sqitch logo for dark backgrounds</h4>
@@ -57,7 +55,6 @@ they credit the author for the original creation.
             <li><a href="/img/sqitch-mark.eps">EPS</a></li>
         </ul>
     </div>
-
     <div class="bmark">
         <img src="/img/sqitch-mark-black.png" srcset="/img/sqitch-mark-black.svg" alt="Black Sqitch Logo Mark" title="Black Sqitch Logo Mark" />
         <h4>Black Sqitch logo mark for light backgrounds</h4>
@@ -67,7 +64,6 @@ they credit the author for the original creation.
             <li><a href="/img/sqitch-mark-black.eps">EPS</a></li>
         </ul>
     </div>
-
     <div class="wmark">
         <img src="/img/sqitch-mark-white.png" srcset="/img/sqitch-mark-white.svg" alt="White Sqitch Logo Mark" title="White Sqitch Logo Mark" class="light" />
         <h4>White Sqitch logo mark for dark backgrounds</h4>
@@ -89,7 +85,6 @@ they credit the author for the original creation.
             <li><a href="/img/icon.eps">EPS</a></li>
         </ul>
     </div>
-
     <div class="bicon">
         <img src="/img/icon-black.png" srcset="/img/icon-black.svg" alt="Black and White Sqitch Icon" title="Black and White Sqitch Icon" />
         <h4>Black and white Sqitch icon for light backgrounds</h4>
@@ -99,7 +94,6 @@ they credit the author for the original creation.
             <li><a href="/img/icon-black.eps">EPS</a></li>
         </ul>
     </div>
-
     <div class="wicon">
         <img src="/img/icon-white.png" srcset="/img/icon-white.svg" alt="White and Black Sqitch Icon" title="White and Black Sqitch Icon" class="light" />
         <h4>White and black Sqitch icon for dark backgrounds</h4>

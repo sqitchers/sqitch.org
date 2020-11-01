@@ -47,6 +47,11 @@ sub new {
         local_module_url_prefix => '/docs/manual/',
         local_module_re         => qr/^sqitch/,
     );
+    $self->strip_verbatim_indent(sub {
+        my $lines = shift;
+        (my $indent = $lines->[0]) =~ s/\S.*//;
+        return $indent;
+    });
     $self->{head_level} = 0;
     $self->{abstract}   = '';
     return $self;
@@ -67,4 +72,21 @@ sub handle_text {
         $self->{in_name} = 0;
     }
     return $self->SUPER::handle_text(@_);
+}
+
+sub end_Verbatim {
+    my ($self) = shift;
+    my $text = $self->_pop_stack_text;
+    $self->_private->{no_escape} = 0;
+    my $lang = guess_lang($text);
+    $self->_save_block("```$lang\n$text\n```");
+}
+
+sub guess_lang {
+    my $text = shift;
+    # return ' bash' if $text =~ /^[>\$] /;
+    return ' diff' if $text =~ /^@@ /;
+    return ' sql' if $text =~ /^(?:CREATE|UPDATE|DROP|SELECT|DO)\b/ms;
+    return ' ini' if $text =~ /^[[]\w+[]]/;
+    return '';
 }

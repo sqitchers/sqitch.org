@@ -60,7 +60,7 @@ your question has been answered already.
 
 [Stack Overflow]: https://stackoverflow.com/
 [Sqitch questions]: https://stackoverflow.com/questions/tagged/sqitch
-  "Stack Overflow: “Questions tagged \[sqitch\]”"
+  "Stack Overflow: “Questions tagged [sqitch]”"
 
 {{% /section %}}
 {{% section class="bug" %}}
