@@ -2,7 +2,6 @@ BUILD_DIR=public
 .DEFAULT_GOAL := build
 SQITCH_SOURCE ?= ../sqitch
 
-
 manual:
 	rm -f content/docs/manual/sqitch*
 	bin/gen_manual "${SQITCH_SOURCE}"

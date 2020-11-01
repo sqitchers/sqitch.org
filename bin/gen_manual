@@ -7,6 +7,11 @@ use File::Spec::Functions qw(catdir catfile updir);
 use File::Basename;
 
 my $dir = shift || catdir updir, 'sqitch';
+die "Source directory `$dir` does not exist\n\nUsage: $0 path/to/sqitch\n\n"
+    unless -e $dir;
+die "Path `$dir` is not a directory\n\nUsage: $0 path/to/sqitch\n\n"
+    unless -d $dir;
+
 my $src = catdir $dir, 'lib';
 my $dst = catdir qw(content docs manual);
 
