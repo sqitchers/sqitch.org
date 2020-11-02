@@ -4,14 +4,16 @@ languageCode = "en-us"
 disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap"]
 copyright = "© Sqtich Hackers. This work is licensed under a Creative Commons Attribution 4.0 International License."
 footnoteReturnLinkContents = "↩"
-
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsStyle = "monokai"
+enableRobotsTXT = true
 
 [params]
   description = "Sqitch is the developer-friendly, confidence-inducing, platform-neutral database change management system."
 
 [markup]
-[markup.goldmark.renderer]
-  unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    codeFences = true
+  [markup.goldmark.parser]
+    autoHeadingID = true
+  [markup.goldmark.renderer]
+    unsafe = true
