@@ -25,6 +25,15 @@ they credit the author for the original creation.
             <li><a href="/img/sqitch-logo.eps">EPS</a></li>
         </ul>
     </div>
+    <div class="bwlogo">
+        <img src="/img/sqitch-logo-blue-white.png" srcset="/img/sqitch-logo-blue-white.svg" alt="Blue and White Sqitch Logo" title="Blue and White Sqitch Logo" class="light" />
+        <h4>Blue and White Sqitch logo for dark backgrounds</h4>
+        <ul>
+            <li><a href="/img/sqitch-logo-blue-white.png">PNG</a></li>
+            <li><a href="/img/sqitch-logo-blue-white.svg">SVG</a></li>
+            <li><a href="/img/sqitch-logo-blue-white.eps">EPS</a></li>
+        </ul>
+    </div>
     <div class="blogo">
         <img src="/img/sqitch-logo-black.png" srcset="/img/sqitch-logo-black.svg" alt="Black Sqitch Logo" title="Black Sqitch Logo" />
         <h4>Black Sqitch logo for light backgrounds</h4>

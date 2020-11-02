@@ -2,10 +2,10 @@
 SQITCH_SOURCE ?= ../sqitch
 PUBLISH_DIR ?= ../sqitchers.github.io
 
-content/docs/manual/sqitch:
+content/docs/manual/sqitch*:
 	bin/gen_manual "${SQITCH_SOURCE}"
 
-server: content/docs/manual/sqitch
+server: content/docs/manual/sqitch*
 	hugo server -D --bind 0.0.0.0
 
 publish: build
