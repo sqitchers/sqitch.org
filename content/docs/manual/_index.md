@@ -1,6 +1,7 @@
 ---
 title: "Sqitch Manual"
 id: manlist
+description: The official and comprehensive manual included the Sqitch package itself.
 ---
 
 The official and comprehensive **manual** included the Sqitch package itself.

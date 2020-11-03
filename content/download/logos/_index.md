@@ -1,6 +1,7 @@
 ---
 title: "Sqitch Logos"
 id: logos
+description: The Sqitch logo is provided under the Creative Commons Attribution 4.0 International License.
 ---
 
 {{% section class="cc" %}}

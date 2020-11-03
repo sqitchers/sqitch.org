@@ -8,13 +8,8 @@ content/docs/manual/sqitch*:
 server: content/docs/manual/sqitch*
 	hugo server -D --bind 0.0.0.0
 
-publish: build
-	cd "${PUBLISH_DIR}" && git clean -dfx && git rm -rf --ignore-unmatch . && git reset HEAD -- README.md CNAME && git checkout README.md CNAME
+build: content/docs/manual/sqitch*
 	hugo -d "${PUBLISH_DIR}"
-	cd "${PUBLISH_DIR}"; \
-	git add . ; \
-	git commit -m "Rebuilding site `date -u +%Y-%m-%dT%H:%M:%SZ`"; \
-	git push
 
 # Requires imagemagick
 favicon:

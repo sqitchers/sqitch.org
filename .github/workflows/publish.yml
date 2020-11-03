@@ -1,0 +1,50 @@
+name: Publish
+on:
+  push:
+    branches: [main]
+jobs:
+  publish:
+    name: Publish pgxn.org
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Source
+        uses: actions/checkout@v2
+      - name: Check out Sqitch
+        uses: actions/checkout@v2
+        with:
+          repository: sqitchers/sqitch
+          ref: v1.1.0 # Current release
+          path: sqitch
+      - name: Install Pod::Markdown
+        uses: perl-actions/install-with-cpanm@v1.1
+        with:
+          install: "Pod::Markdown"
+          tests: false
+      - name: Build the Manual
+        run: bin/gen_manual sqitch
+      - name: Check out Site
+        uses: actions/checkout@v2
+        with:
+          repository: sqitchers/sqitchers.github.io
+          path: site
+          token: ${{ secrets.PAT }}
+      - name: Reset the Site
+        run: |
+          cd site
+          git rm -rf --ignore-unmatch .
+          git reset HEAD -- README.md CNAME
+          git checkout README.md CNAME
+      - name: Build the Site
+        uses: docker://klakegg/hugo:0.78.0
+        with:
+          args: -d site
+      - name: Publish the Site
+        run: |
+          cd site
+          git add .
+          if ! git diff-index --cached --quiet --ignore-submodules HEAD; then
+              git config --global user.name 'Sqitch Hackers'
+              git config --global user.email sqitch-hackers@googlegroups.com
+              git commit -m "Build from ${{ github.repository }}@${GITHUB_SHA::7}"
+              git push
+          fi

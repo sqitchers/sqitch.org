@@ -88,10 +88,10 @@ sub end_Verbatim {
 }
 
 sub guess_lang {
-    my $text = shift;
-    # return ' bash' if $text =~ /^[>\$] /;
-    return ' diff' if $text =~ /^@@ /;
-    return ' sql' if $text =~ /^(?:CREATE|UPDATE|DROP|SELECT|DO)\b/ms;
-    return ' ini' if $text =~ /^[[]\w+[]]/ms;
+    $_ = shift;
+    return ' diff' if /^@@ /ms;
+    return ' abnf' if /^[[]%\s*\w+/ms; # Not exact, but close enough.
+    return ' sql'  if /^(?:BEGIN|CREATE|UPDATE|DROP|SELECT|DO)\b/ms;
+    return ' ini'  if /^[[]\w+[]]/ms;
     return '';
 }

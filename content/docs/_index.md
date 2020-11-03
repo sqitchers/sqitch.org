@@ -1,6 +1,7 @@
 ---
 title: "Sqitch Documentation"
 id: docidx
+description: The official and comprehensive manual pages included in the Sqitch package itself.
 ---
 
 {{% section class="docs" %}}
