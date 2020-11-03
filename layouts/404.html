@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+	<header id="title">
+		<h1>404 Not Found</h1>
+	</header>
+	<main id="notfound" class="page">
+        <section class="err">
+            <h2>Sqitch Scuttled</h2>
+            <p>Woops, looks like you tried to load a page that does not exist. May we suggest you visit our fine <strong><a href="{{ "/" | relURL }}">home page</a></strong>?</p>
+        </section>
+	</main>
+{{ partial "footer.html" . }}

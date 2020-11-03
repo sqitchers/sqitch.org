@@ -1,4 +1,5 @@
 
+.icon-attention:before { content: '\26a0'; } /* '⚠' */
 .icon-cpan:before { content: '\e803'; } /* '' */
 .icon-sqitch:before { content: '\e80c'; } /* '' */
 .icon-th-list:before { content: '\f00b'; } /* '' */
