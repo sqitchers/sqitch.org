@@ -33,7 +33,7 @@ jobs:
           git reset HEAD -- README.md CNAME
           git checkout README.md CNAME
       - name: Build the Site
-        uses: docker://klakegg/hugo:0.78.0
+        uses: docker://klakegg/hugo:0.82.0
         with:
           args: -d site
       - name: Publish the Site

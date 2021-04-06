@@ -13,7 +13,7 @@
 			{{- range $i, $header := $headers -}}
 			{{- $currentHeaderLevelString := index (findRE "[2-4]" $header 1) 0 -}}
 			{{- $currentHeaderLevel := len (seq $currentHeaderLevelString) -}}
-			{{- $anchorId := (replaceRE  "[’/_'.,]" "-" ($header | htmlUnescape | plainify | htmlEscape)) | urlize -}}
+			{{- $anchorId := (anchorize ($header | htmlUnescape | plainify | htmlEscape)) | urlize -}}
 			{{- $listItemTitle := $header | htmlUnescape | plainify | htmlEscape -}}
 			{{- $listItemOpen := safeHTML (printf "<li><a href='#%s'>%s</a>" $anchorId $listItemTitle) -}}
 			{{- $lastItemIndex := sub $numHeaders 1 -}}
