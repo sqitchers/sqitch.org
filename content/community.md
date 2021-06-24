@@ -34,17 +34,17 @@ you've missed so far, or to see if a question has already been answered.
 IRC
 ---
 
-For more informal discussion, hit the `#sqitch` IRC channel on [Freenode]
-(irc.freenode.net). The channel regularly hosts numerous people at all levels of
+For more informal discussion, hit the `#sqitch` IRC channel on [Libera Chat]
+(irc.libera.chat). The channel regularly hosts numerous people at all levels of
 knowledge, from beginners just getting started with Sqitch to experts with many
 projects under their belts. Ad hoc development discussions and coordination
 periodically break out among the maintainers as well.
 
 Not familiar with IRC or don't have an IRC client? Just [connect in your browser].
 
-  [Freenode]: https://freenode.net
-    "freenode.net - Supporting Free and Open Source Software Communities since 1998"
-  [connect in your browser]: https://webchat.freenode.net/?randomnick=1&channels=%23sqitch
+  [Libera Chat]: https://libera.chat
+    "libera.chat - Providing a community platform for free and open-source software and peer directed projects."
+  [connect in your browser]: https://web.libera.chat/?channel=#sqitch
     "Chat on the #sqitch channel now"
 
 {{% /section %}}
