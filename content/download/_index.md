@@ -62,7 +62,7 @@ database.
 [Logos]
 -------
 
-Download variants of the Sqitch logo in PNG, SVG, and EPS formats for for use in
+Download variants of the Sqitch logo in PNG, SVG, and EPS formats for use in
 online and print projects.
 
 [Logos]: /download/logos/
