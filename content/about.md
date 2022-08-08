@@ -46,7 +46,7 @@ committed changes to your VCS out-of-order.
 Deployment integrity
 --------------------
 
-Sqitch manages changes and dependencies via a plan file, and employs a [Merkle
+Sqitch manages changes and dependencies via a plan file, employing a [Merkle
 tree] pattern similar to [Git] and [Blockchain] to ensure deployment integrity.
 As such, there is no need to number your changes, although you can if you want.
 Sqitch doesn't much care how you name your changes.
@@ -64,8 +64,7 @@ Iterative development
 Up until you [tag](/docs/manual/sqitch-tag/) and [release] your application, you
 can modify your change deployment scripts as often as you like. They're not
 locked in just because they've been committed to your VCS. This allows you to
-take an iterative approach to developing your database schema. Or, better, you
-can do test-driven database development.
+take an iterative or test-driven approach to developing your database schema.
 
   [tag]: /docs/manual/sqitch-tag/ "Sqitch commands: tag"
   [release]: /docs/manual/sqitch-bundle/ "Sqitch commands: bundle"
