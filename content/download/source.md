@@ -15,7 +15,7 @@ and [SQLite] support:
 
 The database drivers for each engine are:
 
-*   PostgreSQL: `DBD::Pg`
+*   PostgreSQL, YugabyteDB, and CockroachDB: `DBD::Pg`
 *   SQLite: `DBD::SQLite`
 *   Oracle: `DBD::Oracle`
 *   MySQL: `DBD::mysql`

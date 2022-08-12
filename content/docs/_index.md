@@ -22,7 +22,7 @@ Tutorials
 New to Sqitch? Start with the tutorial for your preferred database engine to
 learn how to create, develop, and maintain a database with Sqitch.
 
-*   [🐘 Postgres Tutorial](/docs/manual/sqitchtutorial/)
+*   [🐘 Postgres, YugabyteDB, and CockroachDB Tutorial](/docs/manual/sqitchtutorial/)
 *   [💡 SQLite Tutorial](/docs/manual/sqitchtutorial-sqlite/)
 *   [🐬 MySQL Tutorial](/docs/manual/sqitchtutorial-mysql/)
 *   [🔥 Firebird Tutorial](/docs/manual/sqitchtutorial-firebird/)

@@ -33,6 +33,7 @@ database.
 *   SQLite requires [SQLite]
 *   MySQL requires [MySQL]
 *   Firebird requires [Firebird]
+*   YugabyteDB and CockroachDB require [psql]
 *   Oracle requires [Instant Client] \(and the setting of the `$ORACLE_HOME`
     environment variable)
 *   Vertica requires vsql and the Vertica ODBC driver from [Vertica]
@@ -55,6 +56,7 @@ database.
   [Exasol]: https://www.exasol.com/portal/ "Exasol User Portal"
   [Snowflake]: https://docs.snowflake.net/manuals/user-guide-connecting.html
     "Connecting to Snowflake"
+  [psql]: https://www.postgresql.org/docs/current/app-psql.html
 
 {{% /section %}}
 {{% section class="sqitch" %}}

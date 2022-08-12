@@ -21,7 +21,7 @@ install Sqitch with [MySQL] support, for example:
 
 The client and connection libraries for each engine are:
 
-*   PostgreSQL: `libdbd-pg-perl postgresql-client`
+*   PostgreSQL, YugabyteDB, and CockroachDB: `libdbd-pg-perl postgresql-client`
 *   SQLite: `libdbd-sqlite3-perl sqlite3`
 *   Oracle: `libdbd-oracle-perl`
 *   MySQL: `libdbd-mysql-perl mysql-client`

@@ -16,7 +16,7 @@ For example, to install Sqitch with support for [PostgreSQL]:
 
 The client and connection libraries for each engine are:
 
-*   PostgreSQL: `postgresql perl-DBD-Pg`
+*   PostgreSQL, YugabyteDB, and CockroachDB: `postgresql perl-DBD-Pg`
 *   SQLite: `sqlite perl-DBD-SQLite`
 *   Oracle: `perl-DBD-Oracle`
 *   MySQL: `mysql perl-DBD-mysql`
