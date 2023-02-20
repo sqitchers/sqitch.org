@@ -6,9 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out Source
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Check out Sqitch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: sqitchers/sqitch
           ref: v1.3.1 # Current release
@@ -21,7 +21,7 @@ jobs:
       - name: Build the Manual
         run: bin/gen_manual sqitch
       - name: Check out Site
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: sqitchers/sqitchers.github.io
           path: site
