@@ -14,7 +14,7 @@ jobs:
           ref: v1.4.1 # Current release
           path: sqitch
       - name: Install Pod::Markdown
-        uses: perl-actions/install-with-cpanm@v1
+        uses: perl-actions/install-with-cpanm@stable
         with:
           install: "Pod::Markdown"
           tests: false
