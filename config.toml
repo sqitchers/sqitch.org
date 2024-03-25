@@ -1,7 +1,7 @@
 title = "Sqitch"
 baseURL = "https://sqitch.org/"
 languageCode = "en-us"
-disableKinds = ["taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+disableKinds = ["term", "taxonomy", "RSS", "sitemap"]
 copyright = "© Sqtich Hackers. This work is licensed under a Creative Commons Attribution 4.0 International License."
 footnoteReturnLinkContents = "↩"
 enableRobotsTXT = true
