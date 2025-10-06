@@ -36,9 +36,11 @@ database.
 *   YugabyteDB and CockroachDB require [psql]
 *   Oracle requires [Instant Client] \(and the setting of the `$ORACLE_HOME`
     environment variable)
-*   Vertica requires vsql and the Vertica ODBC driver from [Vertica]
+*   Vertica requires `vsql` and the Vertica ODBC driver from [Vertica]
 *   Exasol requires EXAplus and the Exasol ODBC driver from [Exasol]
 *   Snowflake requires SnowSQL and the Snowflake ODBC driver from [Snowflake]
+*   ClickHouse requires the [ClickHouse Client] and the [ClickHouse ODBC
+    Driver]
 
   [PostgreSQL]: https://postgresql.org/
     "PostgreSQL: The World's Most Advanced Open Source Relational Database"
@@ -57,6 +59,10 @@ database.
   [Snowflake]: https://docs.snowflake.net/manuals/user-guide-connecting.html
     "Connecting to Snowflake"
   [psql]: https://www.postgresql.org/docs/current/app-psql.html
+  [ClickHouse Client]: https://clickhouse.com/docs/interfaces/cli
+    "ClickHouse Docs: ClickHouse Client"
+  [ClickHouse ODBC Driver]: https://github.com/ClickHouse/clickhouse-odbc/
+    "ClickHouse ODBC Driver"
 
 {{% /section %}}
 {{% section class="sqitch" %}}

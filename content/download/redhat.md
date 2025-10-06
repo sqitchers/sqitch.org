@@ -22,7 +22,7 @@ The client and connection libraries for each engine are:
 *   Oracle: `perl-DBD-Oracle`
 *   MySQL: `mysql perl-DBD-mysql`
 *   Firebird: `firebird-classic perl-DBD-Firebird perl-Time-HiRes`
-*   Vertica, Exasol, Snowflake: `perl-DBD-ODBC`
+*   Vertica, Exasol, Snowflake, ClickHouse: `perl-DBD-ODBC`
 
   [Yum]: http://yum.baseurl.org
   [cpanminus]: https://cpanmin.us

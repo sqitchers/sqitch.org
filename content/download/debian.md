@@ -28,7 +28,7 @@ The client and connection libraries for each engine are:
 *   Firebird 3.0 (Debian 9 and later): `libdbd-firebird-perl firebird3.0-utils`
 *   Firebird Classic (Debian 8 and earlier): `libdbd-firebird-perl firebird2.5-classic`
 *   Firebird Super (Debian 8 and earlier): `libdbd-firebird-perl firebird2.5-super`
-*   Vertica, Exasol, Snowflake: `libdbd-odbc-perl`
+*   Vertica, Exasol, Snowflake, ClickHouse: `libdbd-odbc-perl`
 
   [Debian Sqitch Apt]: https://packages.debian.org/stretch/sqitch
   [cpanminus]: https://cpanmin.us

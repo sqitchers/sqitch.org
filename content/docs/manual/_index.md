@@ -53,3 +53,4 @@ The official and comprehensive **manual** included the Sqitch package itself.
 *   [🔮 Oracle](/docs/manual/sqitchtutorial-oracle/) - A tutorial introduction to Sqitch change management on Oracle
 *   [❄️ Snowflake](/docs/manual/sqitchtutorial-snowflake/) - A tutorial introduction to Sqitch change management on Snowflake
 *   [🔺 Vertica](/docs/manual/sqitchtutorial-vertica/) - A tutorial introduction to Sqitch change management on Vertica
+*   [🏠 ClickHouse](/docs/manual/sqitchtutorial-clickhouse/) - A tutorial introduction to Sqitch change management on ClickHouse

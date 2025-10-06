@@ -30,6 +30,7 @@ learn how to create, develop, and maintain a database with Sqitch.
 *   [🔮 Oracle Tutorial](/docs/manual/sqitchtutorial-oracle/)
 *   [❄️ Snowflake Tutorial](/docs/manual/sqitchtutorial-snowflake/)
 *   [🔺 Vertica Tutorial](/docs/manual/sqitchtutorial-vertica/)
+*   [🏠 ClickHouse Tutorial](/docs/manual/sqitchtutorial-clickhouse/)
 
 {{% /section %}}
 

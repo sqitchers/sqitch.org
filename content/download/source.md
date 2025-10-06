@@ -20,7 +20,7 @@ The database drivers for each engine are:
 *   Oracle: `DBD::Oracle`
 *   MySQL: `DBD::mysql`
 *   Firebird: `DBD::Firebird`
-*   Vertica, Exasol, Snowflake: `DBD::ODBC`
+*   Vertica, Exasol, Snowflake, ClickHouse: `DBD::ODBC`
 
 Download the source from [GitHub] or [CPAN]. Or clone the latest version:
 
