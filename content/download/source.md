@@ -11,7 +11,9 @@ client to download and build Sqitch and its dependencies from source, as well as
 the appropriate database drivers. For example, to install Sqitch with [PostgreSQL]
 and [SQLite] support:
 
-    cpan install App::Sqitch DBD::Pg DBD::SQLite
+```sh
+cpan install App::Sqitch DBD::Pg DBD::SQLite
+```
 
 The database drivers for each engine are:
 
@@ -24,7 +26,9 @@ The database drivers for each engine are:
 
 Download the source from [GitHub] or [CPAN]. Or clone the latest version:
 
-    git clone https://github.com/sqitchers/sqitch.git
+```sh
+git clone https://github.com/sqitchers/sqitch.git
+```
 
   [CPAN]: https://metacpan.org/release/App-Sqitch "Sqitch on MetaCPAN"
   [cpanminus]: https://cpanmin.us

@@ -13,17 +13,21 @@ use [DNF] or [Yum] to install dependencies, and then build Sqitch itself via
 For example, to install Sqitch with support for [PostgreSQL] On newer
 DNF/DNF5‑based systems (e.g., Fedora 41+):
 
-    sudo dnf install perl-devel perl-CPAN postgresql-devel
-    sudo dnf group install development-tools
-    curl -L https://cpanmin.us | perl - --sudo App::cpanminus
-    cpanm --sudo --quiet --notest App::Sqitch
+```sh
+sudo dnf install perl-devel perl-CPAN postgresql-devel
+sudo dnf group install development-tools
+curl -L https://cpanmin.us | perl - --sudo App::cpanminus
+cpanm --sudo --quiet --notest App::Sqitch
+```
 
 On older Yum‑based systems:
 
-    sudo yum install perl-devel perl-CPAN postgresql perl-DBD-Pg
-    sudo yum group install "Development Tools"
-    curl -L https://cpanmin.us | perl - --sudo App::cpanminus
-    cpanm --quiet --notest App::Sqitch
+```sh
+sudo yum install perl-devel perl-CPAN postgresql perl-DBD-Pg
+sudo yum group install "Development Tools"
+curl -L https://cpanmin.us | perl - --sudo App::cpanminus
+cpanm --quiet --notest App::Sqitch
+```
 
 The client and connection libraries for each engine are:
 

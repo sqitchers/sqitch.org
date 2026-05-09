@@ -11,8 +11,10 @@ Homebrew, configure the tap and then install the variants you need via the
 appropriate `--use-$engine-support` options. For example, to install Sqitch with
 [PostgreSQL] and [SQLite] support:
 
-    brew tap sqitchers/sqitch
-    brew install sqitch --with-postgres-support --with-sqlite-support
+```sh
+brew tap sqitchers/sqitch
+brew install sqitch --with-postgres-support --with-sqlite-support
+```
 
 Some engines require the installation of dependencies in advance; consult [the
 docs] for build details and options.

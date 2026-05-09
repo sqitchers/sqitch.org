@@ -11,15 +11,19 @@ with Sqitch. It supports [PostgreSQL], [SQLite], [MariaDB] \([MySQL]), and
 [Firebird]. Simply pull the image, download the shell script wrapper, make it
 executable, and go:
 
-    docker pull sqitch/sqitch
-    curl -L https://git.io/JJKCn -o sqitch && chmod +x sqitch
-    ./sqitch help
+```sh
+docker pull sqitch/sqitch
+curl -L https://git.io/JJKCn -o sqitch && chmod +x sqitch
+./sqitch help
+```
 
 Set the `$SQITCH_IMAGE` environment variable to run a different Sqitch image
 from the script. For example, to run an older version:
 
-    export SQITCH_IMAGE sqitch/sqitch:0.9998
-    ./sqitch --version
+```sh
+export SQITCH_IMAGE sqitch/sqitch:0.9998
+./sqitch --version
+```
 
 See [the README] for additional details.
 
