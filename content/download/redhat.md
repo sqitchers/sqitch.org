@@ -1,14 +1,24 @@
 ---
 title: "Sqitch on Red Hat"
-description: Install dependencies with Yum and Sqitch with cpanminus.
+description: Install dependencies with DNF or Yum and Sqitch with cpanminus.
 id: install
 ---
 
 {{% section class="redhat" %}}
 
 On Red Hat-derived systems (including CentOS, Fedora, Scientific, Oracle, etc.),
-use [Yum] to install dependencies, and then build Sqitch itself via [cpanminus].
-For example, to install Sqitch with support for [PostgreSQL]:
+use [DNF] or [Yum] to install dependencies, and then build Sqitch itself via
+[cpanminus].
+
+For example, to install Sqitch with support for [PostgreSQL] On newer
+DNF/DNF5‑based systems (e.g., Fedora 41+):
+
+    sudo dnf install perl-devel perl-CPAN postgresql-devel
+    sudo dnf group install development-tools
+    curl -L https://cpanmin.us | perl - --sudo App::cpanminus
+    cpanm --sudo --quiet --notest App::Sqitch
+
+On older Yum‑based systems:
 
     sudo yum install perl-devel perl-CPAN postgresql perl-DBD-Pg
     sudo yum group install "Development Tools"
@@ -24,6 +34,7 @@ The client and connection libraries for each engine are:
 *   Firebird: `firebird-classic perl-DBD-Firebird perl-Time-HiRes`
 *   Vertica, Exasol, Snowflake, ClickHouse: `perl-DBD-ODBC`
 
+  [DNF]: https://docs.fedoraproject.org/en-US/quick-docs/dnf/
   [Yum]: http://yum.baseurl.org
   [cpanminus]: https://cpanmin.us
   [PostgreSQL]: https://postgresql.org/
